@@ -15,8 +15,9 @@ const $ = (id) => document.getElementById(id);
 const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const LET = ['A', 'B', 'C', 'D'];
 const t = (gl, es) => (S.lang === 'gl' ? gl : es);
-const qText = (q) => t(q.q_gl, q.q_es);
-const qOpts = (q) => t(q.options_gl, q.options_es);
+// Some questions (from the online course) are galego-only; fall back to gl when es is missing.
+const qText = (q) => (S.lang === 'es' && q.q_es ? q.q_es : q.q_gl);
+const qOpts = (q) => (S.lang === 'es' && q.options_es && q.options_es.length ? q.options_es : q.options_gl);
 const moduleName = (id) => { const m = S.data.modules.find((m) => m.id === id); return m ? t(m.gl, m.es) : ''; };
 function saveStats() { localStorage.setItem('mp_stats', JSON.stringify(stats)); }
 function record(id, correct) {
