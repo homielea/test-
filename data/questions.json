@@ -1281,6 +1281,3351 @@
       ],
       "answer": 2,
       "explanation_gl": "Como regra xeral, na estiba a granel emprégase unha proporción aproximada de dúas partes de xeo por cada tres de peixe para manter a cadea de frío sen excesos."
+    },
+    {
+      "id": "curso-1",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "As vigas trasversais que van de costado a costado apoiadas nas cadernas chámanse:",
+      "q_es": "",
+      "options_gl": [
+        "Estais",
+        "Vaos",
+        "Contretes"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-2",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "As pezas curvas que se afirman a quilla por medio das varengas e serven para darlle forma ao buque e soster os forros denomínanse:",
+      "q_es": "",
+      "options_gl": [
+        "Vagras",
+        "Rodas",
+        "Cadernas"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-3",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A anchura dun buque chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Puntal",
+        "Manga",
+        "Calado"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-4",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Os reforzos lonxitudinais que unen as cadernas entre si polos costados, chámanse",
+      "q_es": "",
+      "options_gl": [
+        "Mamparos",
+        "Palmexar",
+        "Vaos"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-5",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A cuberta parcial que está por riba do alcázar recibe o nome de:",
+      "q_es": "",
+      "options_gl": [
+        "Cidadela",
+        "Castelo",
+        "Toldilla"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-6",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A semisuma dos calados de proa e popa chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Asento",
+        "Calado medio",
+        "Trimado"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-7",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A peza, que en prolongación da quilla, forma o extremo do buque na popa, chámase",
+      "q_es": "",
+      "options_gl": [
+        "Aleta",
+        "Amura",
+        "Codaste"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-8",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Pezas que serven para reforzar a unión das cadernas coa quilla:",
+      "q_es": "",
+      "options_gl": [
+        "Vagras",
+        "Vaos",
+        "Varengas"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-9",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O cable que suspende a carga nun puntal, chámase",
+      "q_es": "",
+      "options_gl": [
+        "Guinche",
+        "Amante",
+        "Amantillo"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-10",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A parte superior dun puntal chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Cabeza",
+        "Pé ou couce",
+        "Corpo"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-11",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "A parte da beta comprendida entre duas roldanas sucesivas, chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Socaire",
+        "Arraigado",
+        "Guarne"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-12",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O aparello utilizado para mover pesos, no que a potencia necesaria é igual a un terzo da resistencia, denomínase:",
+      "q_es": "",
+      "options_gl": [
+        "Lanteón",
+        "Palanque",
+        "Convés"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-13",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "¿Con qué tipo de aparello faríamos menos esforzo?",
+      "q_es": "",
+      "options_gl": [
+        "O convés",
+        "O real",
+        "O palanque"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-14",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Os cables que afirman o pau na dirección proa-popa son:",
+      "q_es": "",
+      "options_gl": [
+        "Estais",
+        "Burdas",
+        "Obenques"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-15",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A máquina que ten un cabirón vertical e se emprega para manobrar con cabos ou cables chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Molinete",
+        "Maquinilla",
+        "Cabrestante"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-16",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Meter a gaza dunha estacha na bita, norai ou bolardo, para o atraque do buque, chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Falcacear",
+        "Colchar",
+        "Encapelar"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-17",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A guía usase na manobra de atraque para:",
+      "q_es": "",
+      "options_gl": [
+        "Virar",
+        "Dar as estachas",
+        "Abozar"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-18",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O \"Esprin\" é:",
+      "q_es": "",
+      "options_gl": [
+        "Un nó",
+        "Unha velocidade",
+        "Un cabo de amarre"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-19",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Para sacar un cabo ou cable que está traballando sobre o cabirón, sen que este perda a tensión adquirida, realízase a faena que é denominada:",
+      "q_es": "",
+      "options_gl": [
+        "Largar",
+        "Facer firme",
+        "Abozar"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-20",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Para abozar cables empréganse bozas de:",
+      "q_es": "",
+      "options_gl": [
+        "Alambre",
+        "Cadea",
+        "Cabo"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-21",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "¿Cál dos seguintes non é un método de aplicación da pintura?",
+      "q_es": "",
+      "options_gl": [
+        "Rodillo",
+        "Chorreado",
+        "Pistola \"airless\""
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-22",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Os fumes de escape dun motor en marcha son negros cando",
+      "q_es": "",
+      "options_gl": [
+        "Entra auga na cámara de combustión",
+        "Falta aire o mala inxección do combustible",
+        "Mezcla de aceite inadecuada"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-23",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O meirande problema para a conservación dos barcos de PRFV (Poliéster), é:",
+      "q_es": "",
+      "options_gl": [
+        "A cavitación",
+        "A ósmose",
+        "A galvanización"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-24",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Non forma parte da parte do pre-tratamento de conservación do barco:",
+      "q_es": "",
+      "options_gl": [
+        "A eliminación do óxido",
+        "O pintado",
+        "O chorreado abrasivo"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-25",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Na rexión \"A\" por qué costado se debe deixar, saíndo do peirao, unha boia que emite unha luz de cor vermella",
+      "q_es": "",
+      "options_gl": [
+        "Por estribor",
+        "Por calquera costado",
+        "Por babor"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-26",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿De qué cor é a luz das marcas que nos indican augas seguras ou navegables?",
+      "q_es": "",
+      "options_gl": [
+        "Vermella",
+        "Verde",
+        "Branca"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-27",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Que marcas de tope mostrará unha baliza que indica que as augas navegables están o sur das mesmas?",
+      "q_es": "",
+      "options_gl": [
+        "Dous conos superpostos cos vértices cara riba",
+        "Dous conos superpostos opuestos pola súa base",
+        "Dous conos superpostos cos vértices cara abaixo"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-28",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "A marca de tope que caracteriza á baliza de augas seguras ou navegables consiste...",
+      "q_es": "",
+      "options_gl": [
+        "Dúas esferas negras",
+        "Dúas esferas vermellas",
+        "Nunha esfera vermella"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-29",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿De qué cor é a luz da marca cardinal do cadrante norte?",
+      "q_es": "",
+      "options_gl": [
+        "Verde",
+        "Amarela",
+        "Branca"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-30",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿De qué cor son as marcas cardinais Oeste?",
+      "q_es": "",
+      "options_gl": [
+        "Negras cunha franxa ancha horizontal amarela",
+        "Amarelas cunha franxa ancha horizontal negra",
+        "Negras na parte inferior e amarelas na superior"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-31",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "As regras de rumbo e goberno aplicaránse...",
+      "q_es": "",
+      "options_gl": [
+        "En calquera condición de visibilidade",
+        "Cando exista risco de abordaxe",
+        "So de noite"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-32",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A expresión «buque de vela» significa todo buque navegando:",
+      "q_es": "",
+      "options_gl": [
+        "A vela aínda que se axude co motor",
+        "Coas velas despregadas, independentemente de se usa ou non o motor ao mesmo tempo",
+        "Únicamente a vela, sen utilizar a máquina propulsora, aínda que a leve"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-33",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "A expresión «buque dedicado á pesca» significa que o buque está pescando con:",
+      "q_es": "",
+      "options_gl": [
+        "Artes de cerco, únicamente",
+        "Nengún aparello de momento, pero que vai directo ao caladeiro para pescar",
+        "Redes, liñas, aparellos de arrastre ou otras artes de pesca que restrinxan a súa maniobrabilidade"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-34",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Chamamos velocidade de seguridade á que...",
+      "q_es": "",
+      "options_gl": [
+        "Nos permite executar a manobra apropiada para evitar un perigo",
+        "Nos permite cortar a derrota doutro buque pola súa proa",
+        "É a mínima posible sen perder o goberno do buque"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-35",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "Cal destas afirmacións non pertence ó código de conduta para que o pescador realice unha pesca artesanal responsable?",
+      "q_es": "",
+      "options_gl": [
+        "Utilizar artes selectivas que respecten os tamaños mínimos.",
+        "Respectar as vedas, as mallas, os fondos mínimos e mais os horarios.",
+        "Cumprir coa maioría dos trámites necesarios para exercer a actividade pesqueira."
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-36",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "Que é o código de conduta de pesca responsable?",
+      "q_es": "",
+      "options_gl": [
+        "E un caderno como o diario de navegación",
+        "E un anuario para anotar as capturas responsablemente",
+        "Un manual que establece os principiose normas para unha práctica pesqueira responsable"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-37",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Os coitelos que se empregan para eviscerar as capturas deber ter",
+      "q_es": "",
+      "options_gl": [
+        "Non se empregan coitelos para eviscerar",
+        "A folla de material inoxidable e o mango de plástico",
+        "O mango de madeira e a folla de material inoxidable"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-38",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "Cando se fala de hixiene nos barcos de pesca, que debemos ter en conta?",
+      "q_es": "",
+      "options_gl": [
+        "A hixiene persoal do manipulador",
+        "A hixene nas instalacións",
+        "Todas as respostas son correctas"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-39",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O ancho dun buque chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Calado",
+        "Manga",
+        "Puntal"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-40",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O desprazamento dun buque é o seu:",
+      "q_es": "",
+      "options_gl": [
+        "Movemento",
+        "Peso",
+        "Volume"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-41",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Nun barco con tres adegas, cál é a de máis a popa:",
+      "q_es": "",
+      "options_gl": [
+        "Na popa non hai adegas",
+        "A número 3",
+        "A número 1"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-42",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O peso dun buque listo para navegar, pero sen carga, é desprazamento:",
+      "q_es": "",
+      "options_gl": [
+        "En lastre",
+        "En vacío",
+        "En rosca"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-43",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A superestructura, por riba da cuberta, que se encontra no centro do buque, se denomina:",
+      "q_es": "",
+      "options_gl": [
+        "castillo",
+        "Ciudadela",
+        "Toldilla"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-44",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Peza que serve para gobernar o buque",
+      "q_es": "",
+      "options_gl": [
+        "Palmexar",
+        "Temón",
+        "Francobordo"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-45",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A altura da cuberta principal sobre a líña de máxima carga é:",
+      "q_es": "",
+      "options_gl": [
+        "Francobordo",
+        "Puntal",
+        "Obra morta"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-46",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O perno é unha peza de:",
+      "q_es": "",
+      "options_gl": [
+        "O grillete",
+        "O rezón",
+        "O áncora"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-47",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "A parte curva dun grillete chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Cóbado",
+        "Perno",
+        "Colo"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-48",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O molinete, ademáis de para virar os cabos de proa, emprégase para:",
+      "q_es": "",
+      "options_gl": [
+        "Mover a carga das adegas",
+        "Mover áncoras",
+        "Mover o timón"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-49",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Unha especie de cabirón vertical que serve para virar os cabos de amarre se chama:",
+      "q_es": "",
+      "options_gl": [
+        "Molinete",
+        "Maquinilla",
+        "Cabrestante"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-50",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Non forma parte do molinete:",
+      "q_es": "",
+      "options_gl": [
+        "Barbotén",
+        "Estopor",
+        "Cabirón"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-51",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Un motón pechado que se pode abrir por unha das súas caras chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Cadernal",
+        "Pasteca",
+        "Tecle"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-52",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A estacha que, sita en popa, impide que o barco se mova cara popa, é:",
+      "q_es": "",
+      "options_gl": [
+        "Longo",
+        "Codeira",
+        "Esprín"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-53",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "¿Cál destas amarras impide que unha embarcación avance cara proa?",
+      "q_es": "",
+      "options_gl": [
+        "Esprín de proa",
+        "Esprín de popa",
+        "Longo de proa"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-54",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Se o motor non arranca por unha compresión insuficiente, que se debe facer?",
+      "q_es": "",
+      "options_gl": [
+        "Cargar o cambiar a batería",
+        "Cambiar os aros do pistón",
+        "Purgar o circuito de combustibles"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-55",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Nas embarcacións construídas con poliéster a causa máis común de deterioro do casco e por mor do proceso de:",
+      "q_es": "",
+      "options_gl": [
+        "Bochas ou golpes",
+        "Oxidación",
+        "Ósmose"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-56",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Na reparación de golpes e bochas nunha embarcación con casco de poliéster se debera",
+      "q_es": "",
+      "options_gl": [
+        "Só lixar y pintar a zona afectada",
+        "Desengrasar, lixar y limpiar de polvo la zona afectada y pintar",
+        "Aplicaremos pintura directamente"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-57",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Os cabos de amarre cando non se estén a utilizar deberase",
+      "q_es": "",
+      "options_gl": [
+        "Estibalos e aduxalos ben",
+        "Tapar cunha lona para protexelos da intemperie",
+        "Estibalos sobre un enxaretado e tapar cunha lona"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-58",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "As parte móviles das maquinillas, molinetes, etc... deberán",
+      "q_es": "",
+      "options_gl": [
+        "Protexerse do sol si se navega por zonas tropicais",
+        "Sustituirase cada seis meses",
+        "Engraxalas e revisalas periódicamente"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-59",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "As baterías deben estar en lugares",
+      "q_es": "",
+      "options_gl": [
+        "Secos e ventilados",
+        "Cerrados e secos",
+        "Cerca da ponte"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-60",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Na rexión \"A\" a forma das marcas de bifurcación que sinalan a canle principal a estribor podrá ser",
+      "q_es": "",
+      "options_gl": [
+        "Cónica, de castillete ou de espeque",
+        "De castillete ou de espeque",
+        "Cilíndrica, de castillete ou de espeque"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-61",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿Por qué costado deixaremos, saíndo do peirao, unha boia que emite unha luz verde?",
+      "q_es": "",
+      "options_gl": [
+        "Por babor",
+        "Por calquera costado",
+        "Por estribor"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-62",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿Cál é a marca de tope da boia do sistema cardinal que nos indica augas seguras ou navegables no cadrante leste?",
+      "q_es": "",
+      "options_gl": [
+        "Dous conos negros superpostos opuestos polos vértices",
+        "Dous conos negros superpostos cos vértices cara riba",
+        "Dous conos negros superpostos opostos pola base"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-63",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿Onde se atopan as augas navegables respecto a unha boia que na parte superior e a inferior e de cor negro, a do medio e de cor amarelo, e a marca de tope son dous conos negros superpostos opostos polas bases?",
+      "q_es": "",
+      "options_gl": [
+        "Ao leste",
+        "Ao norte",
+        "Ao oeste"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-64",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Un buque amosa en líña vertical tres luces: a superior e inferior vermellas e a central branca, ademáis das correspondentes de tope e costados. Trátase de:",
+      "q_es": "",
+      "options_gl": [
+        "Remolcador remolcando con lonxitude de remolque superior a 200 metros",
+        "Buque con capacidade de manobra restrinxida",
+        "Buque restrinxido polo seu calado"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-65",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "A marca de tope que caracteriza á baliza que indica perigo illado, consiste...",
+      "q_es": "",
+      "options_gl": [
+        "Unha esfera negra",
+        "En dúas esferas vermellas en vertical",
+        "En dúas esferas negras en vertical"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-66",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Os cambios de rumbo para evitar unha abordaxe deben realizarse:",
+      "q_es": "",
+      "options_gl": [
+        "Se non temos a obriga de manobrar, nunca debemos cambiar o rumbo",
+        "Dependendo do emprego do radar, o tráfico marítimo, as condicións de visibilidade e demáis condicións meteorolóxicas.",
+        "De forma clara, coa debida antelación e respetando as boas prácticas mariñeiras"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-67",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Un buque de propulsión mecánica avista outro buque que amosa o seu costado de estribor. Para evitar o abordaxe:",
+      "q_es": "",
+      "options_gl": [
+        "Manterá seu rumbo e velocidade",
+        "Parará a máquina para deixar paso ao outro buque",
+        "Caerá a babor, pasando pola popa do outro barco"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-68",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Da derrota dun buque sen goberno mantenrásen apartados da navegación...",
+      "q_es": "",
+      "options_gl": [
+        "Todos os anteriores",
+        "Os buques de propulsión mecánica",
+        "Os buques de pesca"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-69",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Un buque de propulsión mecánica, deberá apartarse da derrota de:",
+      "q_es": "",
+      "options_gl": [
+        "Todas as respostas anteriores son correctas",
+        "Un buque sen goberno",
+        "Un buque dedicado á pesca"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-70",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Que condicións débense cumprir para poder descargar augas sucias na mar?",
+      "q_es": "",
+      "options_gl": [
+        "Buque navegando a 4 millas da costa, si dispon de sistema de tratamento",
+        "As duas respostas son correctas",
+        "Buque navegando a más de 12 millas da costa"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-71",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Dos seguintes residuos Cales pódense tirar a máis de 12 millas da costa",
+      "q_es": "",
+      "options_gl": [
+        "Maderas",
+        "Aceites",
+        "Restos de comida"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-72",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A cualidade dun buque de permanecer adrizado e dar a volta denomínase:",
+      "q_es": "",
+      "options_gl": [
+        "Estabilidade",
+        "Flotabilidade",
+        "Estanqueidade"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-73",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "As adegas dun buque poden ir subdivididas en forma de pisos chamados:",
+      "q_es": "",
+      "options_gl": [
+        "Cubertas",
+        "Entrepontes",
+        "Ostas"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-74",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A escala de calados que ven expresada en números romanos é a de:",
+      "q_es": "",
+      "options_gl": [
+        "Pés",
+        "Decímetros",
+        "Centímetros"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-75",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A superestrutura por riba da cuberta que se atopa na proa é:",
+      "q_es": "",
+      "options_gl": [
+        "Ciudadela",
+        "Toldilla",
+        "Castelo"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-76",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "¿Qué nome recibe a liña que delimita a obra viva da morta?",
+      "q_es": "",
+      "options_gl": [
+        "Liña de cruxía",
+        "Liña de flotación",
+        "Liña de calados"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-77",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O piso dunha adega chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Taxamar",
+        "Caperol",
+        "Plan"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-78",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Os espazos donde vai estibada a carga reciben o nome de:",
+      "q_es": "",
+      "options_gl": [
+        "Adegas",
+        "Espardeles",
+        "Escotillas"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-79",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A maquinilla con eixe horizontal utilizada para levar as áncoras coñécese como:",
+      "q_es": "",
+      "options_gl": [
+        "Cabirón",
+        "Cabrestante",
+        "Molinete"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-80",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Os cables que se suspenden o puntal e a grádua en altura, se chama",
+      "q_es": "",
+      "options_gl": [
+        "Amantillos",
+        "Amantes",
+        "Ostas"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-81",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O barbotín forma parte do:",
+      "q_es": "",
+      "options_gl": [
+        "Cabrestante",
+        "Maquinilla",
+        "Molinete"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-82",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O cabrestante úsase para:",
+      "q_es": "",
+      "options_gl": [
+        "Fondear",
+        "Manobrar con cabos",
+        "Levar o rumbo"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-83",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Os cables que reforzan o pao na dirección proa-popa, son:",
+      "q_es": "",
+      "options_gl": [
+        "Estais",
+        "Burdas",
+        "Obenques"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-84",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A liña de grabada no compás serve para:",
+      "q_es": "",
+      "options_gl": [
+        "Medir na carta",
+        "Levar o rumbo",
+        "Manobrar"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-85",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O ángulo horizontal que forma a proa do barco có NORTE, chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Marcación",
+        "Rumbo",
+        "Demora"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-86",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A suma da declinación magnética e o desvío, chámase?",
+      "q_es": "",
+      "options_gl": [
+        "Desviación",
+        "Corrección total",
+        "Variación"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-87",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Non forma parte da agulla magnética",
+      "q_es": "",
+      "options_gl": [
+        "La bitácora",
+        "El mortero",
+        "El chapitel"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-88",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "¿Cándo deben exhibirse as luces dun barco?",
+      "q_es": "",
+      "options_gl": [
+        "Durante a navegación",
+        "Desde o solpor ata a saída do sol",
+        "Ao comezar a oscurecer"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-89",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿Qué ángulo abarca a luz todo horizonte?",
+      "q_es": "",
+      "options_gl": [
+        "360° sen interrupción",
+        "180°",
+        "365°"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-90",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "O sector visible da luz de tope é de:",
+      "q_es": "",
+      "options_gl": [
+        "225°",
+        "245°",
+        "250°"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-91",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "No caso de ver unha luz branca que emite grupos de 3 escintileos, identificarse como unha marca...",
+      "q_es": "",
+      "options_gl": [
+        "De augas seguras ou navegábile",
+        "Cardinal",
+        "De perigo illado"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-92",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Se observamos na bifurcación dun canal unha boia cilíndrica de cor vermello cunha franxa horizontal de cor verde, ¿qué significa?",
+      "q_es": "",
+      "options_gl": [
+        "Augas seguras ou navegables",
+        "Canal principal a babor",
+        "Canal principal a estribor"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-93",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿Cál é a cor das marcas de augas seguras ou navegables?",
+      "q_es": "",
+      "options_gl": [
+        "Franxas horizontais vermellas e negras",
+        "Franxas verticais vermellas e brancas",
+        "Franxas verticais amarelas e azuis"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-94",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Se observamos unha boia que ten de marca de tope dous conos unidos polos seus vértices, o perigo atópase ao...",
+      "q_es": "",
+      "options_gl": [
+        "Norte da marca",
+        "Leste da marca",
+        "Oeste da marca"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-95",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Se se observa unha luz branca que emite 3 escintileos rápidos cada 5 segundos ou 3 escintileos cada 10 segundos, pódese dicir que...",
+      "q_es": "",
+      "options_gl": [
+        "É unha marca cardinal Leste",
+        "É un pesqueiro de arrastre",
+        "É un buque draga"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-96",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Pódese diferenciar as marcas de balizamento durante a noite por...",
+      "q_es": "",
+      "options_gl": [
+        "A cor e o ritmo da luz que emite",
+        "O ritmo da luz que emite soamente",
+        "A cor da luz que emite soamente"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-97",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "¿Cál destos non é un barco pesqueiro?",
+      "q_es": "",
+      "options_gl": [
+        "Bateeiro",
+        "Palangreiro",
+        "Cerqueiro"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-98",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "O dereito a pescar conleva",
+      "q_es": "",
+      "options_gl": [
+        "A obriga de facelo de xeito responsable",
+        "A obriga de pescar o máximo número de capturas",
+        "A obriga de pescar a maior cantidade de especies"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-99",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "O esforzo pesqueiro ten que ser proporcional a:",
+      "q_es": "",
+      "options_gl": [
+        "A capacidade de pesca dos buques",
+        "A capacidade de producción dos recursos pesqueiros",
+        "O tamaño dos buques de pesca"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-100",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "Que se coñece como rendemento máximo sostible(RMS)?",
+      "q_es": "",
+      "options_gl": [
+        "A total explotación do recurso",
+        "A explotación racional do recurso",
+        "A máxima explotación do recurso"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-101",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Según Marpol As augas oleosas con menos de 15 ppm se poden achicar ao mar?",
+      "q_es": "",
+      "options_gl": [
+        "Si, pero co buque navegando e tengan máis de 15ppm",
+        "En ningún caso se debe achicar ese tipo de augas",
+        "Si, pero co buque navegando"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-102",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O equipo que serve para separar os residuos oleosos da auga para que podamos achicar ao mar chámase",
+      "q_es": "",
+      "options_gl": [
+        "Equipo filtrador de hidrocarburos",
+        "Filtro de sentinas",
+        "Bomba de achique"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-103",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Os filtros de aceite e combustible usados se deberán eliminar",
+      "q_es": "",
+      "options_gl": [
+        "Depositándolos no contenedor Marpol correspondente",
+        "Pódense tirar ao mar a máis de 12 millas da costa",
+        "Os tiraremos ao contenedor de lixo máis proximo"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-104",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A distancia vertical entre a quilla e a cuberta principal é:",
+      "q_es": "",
+      "options_gl": [
+        "Calado",
+        "Puntal",
+        "Francobordo"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-105",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "As aberturas practicadas nas cubertas que permiten o acceso de persoas no interior dos adegas, chámanse:",
+      "q_es": "",
+      "options_gl": [
+        "Escotillas",
+        "Portelos",
+        "Tambuchos"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-106",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O lugar donde van parar as augas ou derrames da carga, ou que poden entrar polos zapóns ós adegas é:",
+      "q_es": "",
+      "options_gl": [
+        "Sentina",
+        "Dobre fondo",
+        "Pique"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-107",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A cualidade dun buque de permanecer adrizado e non dar a volta denomínase:",
+      "q_es": "",
+      "options_gl": [
+        "Estabilidade",
+        "Estanquidade",
+        "Flotabilidade"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-108",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "A parte da beta pola que se tira non aparello, chámase",
+      "q_es": "",
+      "options_gl": [
+        "Tira",
+        "Socaire",
+        "Arraigado"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-109",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Para impedir que o puntal se mova lateralmente usase:",
+      "q_es": "",
+      "options_gl": [
+        "Amante",
+        "Ostas",
+        "Amantillo"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-110",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Un motón ferrado que se pode abrir por unha das súas caras, chámase",
+      "q_es": "",
+      "options_gl": [
+        "Cadernal",
+        "Tecle",
+        "Pasteca"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-111",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A parte inferior do puntal, chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Pé ou couce",
+        "Pedestal",
+        "Base"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-112",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Os cables que sosteñen os paus lateralmente, chámanse:",
+      "q_es": "",
+      "options_gl": [
+        "Estais",
+        "Obenques",
+        "Ostas"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-113",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Nun cabo a torsión de varias filásticas forman:",
+      "q_es": "",
+      "options_gl": [
+        "Un cordón",
+        "Un colchado",
+        "A mena"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-114",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Unha das seguintes características non corresponde ao polipropileno:",
+      "q_es": "",
+      "options_gl": [
+        "É unha fibra natural",
+        "É menos maneable que o nilón",
+        "Flota"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-115",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Non é unha fibra sintética:",
+      "q_es": "",
+      "options_gl": [
+        "Poliéster",
+        "Nailon",
+        "Cánabo"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-116",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Para acortar un cabo úsase o nó:",
+      "q_es": "",
+      "options_gl": [
+        "Ballestrinque",
+        "Margarita",
+        "As de guía"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-117",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O aparello que nos indica a dirección na que se atopa o norte verdadeiro é",
+      "q_es": "",
+      "options_gl": [
+        "Agulla magnética",
+        "A xiroscópica",
+        "El cubichete"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-118",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Para converter un rumbo de agulla en rumbo verdadeiro temos que aplicar",
+      "q_es": "",
+      "options_gl": [
+        "A declinación magnética",
+        "O desvío",
+        "A corrección total"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-119",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Os rumbos comprendidos entre o Sur e o Oeste pertencen ao:",
+      "q_es": "",
+      "options_gl": [
+        "3er cuadrante",
+        "2º cuadrante",
+        "1er cuadrante"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-120",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O escandallo úsase para:",
+      "q_es": "",
+      "options_gl": [
+        "Sondar",
+        "Medir a velocidade",
+        "Fondear"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-121",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Medir a profundidade denomínase:",
+      "q_es": "",
+      "options_gl": [
+        "Fondear",
+        "Sondar",
+        "Escandallear"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-122",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "O sector de iluminación das «luces de costado» abarca pola súa banda, un ángulo de",
+      "q_es": "",
+      "options_gl": [
+        "112,5 grados",
+        "125 grados",
+        "90 grados"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-123",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Pola noite, unha única luz vermella en movemento indícanos que se trata do costado de babor dun:",
+      "q_es": "",
+      "options_gl": [
+        "Submarino",
+        "Veleiro",
+        "Buque de propulsión mecánica con eslora igual ou inferior a 50 metros"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-124",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿Cál é a sinal de día que exhiben os pesqueiros, sexan ou non de arrastre?",
+      "q_es": "",
+      "options_gl": [
+        "Un cesto",
+        "Unha marca bicónica",
+        "Dous conos unidos polo vértice"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-125",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "¿Qué barco exhibe estas tres luces todo horizonte: vermella-branca-vermella? Un buque...",
+      "q_es": "",
+      "options_gl": [
+        "Con capacidade de manobra restrinxida, que se atopa parado e/en arrancada",
+        "Cableiro de menos de 50 metros fondeado",
+        "Sen goberno, parado e/en arrancada"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-126",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿De que cor é unha marca cardinal Norte?",
+      "q_es": "",
+      "options_gl": [
+        "Negra (unha franxa horizontal amarela)",
+        "Negra na súa parte superior e amarela na inferior",
+        "Amarela na súa parte superior e negra na inferior"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-127",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Se preto do peirao vemos unha marca cilíndrica de cor vermello...",
+      "q_es": "",
+      "options_gl": [
+        "Deixarémola por babor entrando ao peirao",
+        "Pódese deixar por calquera banda",
+        "Deixarémola por estribor entrando ao peirao"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-128",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿Para qué se usa unha marca cardinal?",
+      "q_es": "",
+      "options_gl": [
+        "Para indicar de qué lado dun perigo se atopan as augas seguras ou navegables",
+        "Para indicar que as augas máis profundas atópanse no cadrante que ten o nome da marca",
+        "A e B son correctas"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-129",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Un buque remolcando a outro de noite e a lonxitude do remolque maior de 200 m, amosará as seguintes luces indicativas do faena que está facendo:",
+      "q_es": "",
+      "options_gl": [
+        "Dúas luces brancas na mesma vertical",
+        "Tres luces vermellas na mesma vertical",
+        "Tres luces brancas na mesma vertical"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-130",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Se en medio dun canal observase unha marca de perigo aillado, pode indicar que..",
+      "q_es": "",
+      "options_gl": [
+        "Se debe deixar por estribor",
+        "Se debe deixar por babor",
+        "A presenza dun barco afundido"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-131",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿Cál será o ritmo das luces das marcas laterais de babor?",
+      "q_es": "",
+      "options_gl": [
+        "Calquera que non sexa grupos de 2 máis 1 escintileo",
+        "Grupos de 2 máis 1 escintileo",
+        "Grupos de 2 escintileos"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-132",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "...o palangre e",
+      "q_es": "",
+      "options_gl": [
+        "Un util de pesca",
+        "Un aparello de pesca",
+        "Unha arte de pesca"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-133",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "As trampas son útiles de pesca que tamén se lles coñece co nome de",
+      "q_es": "",
+      "options_gl": [
+        "Angazos",
+        "Nasas",
+        "Rastros"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-134",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "Na pesca artesanal empréganse un palangre de medidas reducidas que se coñece co nome de",
+      "q_es": "",
+      "options_gl": [
+        "Palangrillo",
+        "Palangre de fondo",
+        "Palangre de superficie"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-135",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "O miño é unha arte de pesca con...",
+      "q_es": "",
+      "options_gl": [
+        "Tres panos de rede",
+        "Dous panos de rede",
+        "Un pano de rede"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-136",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "¿Cál dos métodos que se mencionan non é un criterio de clasificación do peixe?",
+      "q_es": "",
+      "options_gl": [
+        "Frescura",
+        "Cor",
+        "Especie"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-137",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "Cal destas respostas indica que o peixe presenta síntomas de deterioro?",
+      "q_es": "",
+      "options_gl": [
+        "Os ollos abúltanse e a córnea vólvese translúcida",
+        "As branquias se volven vermellas e a textura da carne faise firme",
+        "Os ollos aparecen afundidos e as branquias presentan unha cor amarroñada"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-138",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "Os métodos para conservar as capturas a bordo se basan en:",
+      "q_es": "",
+      "options_gl": [
+        "Baixar a temperatura",
+        "Salar as capturas",
+        "Subir a temperatura"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-139",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A envoltura exterior as cadernas que forma o casco chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Casco",
+        "Forro",
+        "Cuberta"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-140",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A lonxitude dun buque, chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Estribor",
+        "Manga",
+        "Eslora"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-141",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A parte traseira dun buque chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Popa",
+        "Estribor",
+        "Proa"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-142",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A distancia vertical, medida dende a parte baixa da quilla ata a liña de flotación, se denomina",
+      "q_es": "",
+      "options_gl": [
+        "Manga",
+        "Calado",
+        "Puntal"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-143",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Cómo se chama a peza lonxitudinal que vai de proa a popa pola parte máis baixa y central do buque?",
+      "q_es": "",
+      "options_gl": [
+        "Cruxía",
+        "Cadernal",
+        "Quilla"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-144",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A diferenza entre o calado de popa e o de proa chámase",
+      "q_es": "",
+      "options_gl": [
+        "Asiento",
+        "Obra viva",
+        "Francobordo"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-145",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "As vigas transversais que van de costado a costado apoiadas nas cadernas chámanse",
+      "q_es": "",
+      "options_gl": [
+        "Estais",
+        "Vaos",
+        "Contretes"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-146",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "A parte curva dun grillón chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Codo",
+        "Cuello",
+        "Perno"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-147",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A acción de soltar pouco a pouco un cabo ou cable que teña tensión, coñécese como:",
+      "q_es": "",
+      "options_gl": [
+        "Lascar",
+        "Arriar",
+        "Largar"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-148",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Un nó moi empregado para unir dous cabos de distinta mena entre sí, é:",
+      "q_es": "",
+      "options_gl": [
+        "As de guía",
+        "Chan",
+        "Volta de escota"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-149",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A faena de recoller un cabo para que non se enrede e estea claro para a manobra, chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Abozar",
+        "Azocar",
+        "Aduxar"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-150",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A curvatura que se forma nun cabo denomínase:",
+      "q_es": "",
+      "options_gl": [
+        "Chicote",
+        "Seno",
+        "Firme"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-151",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A parte máis larga dun cabo denomínase:",
+      "q_es": "",
+      "options_gl": [
+        "Chicote",
+        "Seno",
+        "Firme"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-152",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O cabo fino graduado do escandallo que nos axuda a coñecer a profundidade, chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Sondareza",
+        "Sonda",
+        "Guía"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-153",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Para determinar a velocidade dun buque usase:",
+      "q_es": "",
+      "options_gl": [
+        "Velocímetro",
+        "Corredeira",
+        "Sonar"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-154",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Para convertir un rumbo magnético en rumbo verdadeiro temos que aplicar:",
+      "q_es": "",
+      "options_gl": [
+        "A declinación magnética",
+        "A corrección total",
+        "O desvío"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-155",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O aparello que nos axuda a navegar con seguridade en caso de mala visibilidade é:",
+      "q_es": "",
+      "options_gl": [
+        "O radar",
+        "O sonar",
+        "O GPS"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-156",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "O aparello de axuda á navegación que mediante satélites nos da a posición, chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Corredeira",
+        "GPS",
+        "Radar"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-157",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "De noite pechada, vemos a silueta dun barco que ten unha luz branca todo horizonte na parte de proa. Trátase dun buque:",
+      "q_es": "",
+      "options_gl": [
+        "Con eslora inferior a 50 metros que se atopa fondeado",
+        "De propulsión mecánica parado e sen arrancada",
+        "Con eslora inferior a 50 metros en navegación sen arrancada"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-158",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Unha pitada longa significa un son de duración aproximada de...",
+      "q_es": "",
+      "options_gl": [
+        "2 a 3 segundos",
+        "4 a 6 segundos",
+        "6 a 8 segundos"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-159",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Pechados en néboa escoitamos unha pitada longa seguida de duas cortas cada 2 minutos. ¿Trátase dun barco?",
+      "q_es": "",
+      "options_gl": [
+        "Buque sen goberno",
+        "Buque fondeado",
+        "Buque varado"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-160",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Se note observamos duas luces todo horizonte, a superior vermella e a inferior verde, en vertical, significa:",
+      "q_es": "",
+      "options_gl": [
+        "Buque de vela",
+        "Pesqueiro de arrastre",
+        "Embarcación de Práctico"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-161",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "¿Qué significan 3 sinais acústicas curtas?",
+      "q_es": "",
+      "options_gl": [
+        "Estou dando atrás",
+        "Precaución, estou manobrando",
+        "Deixe libre o canal"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-162",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "¿Cal destas non é unha rede de enmalle?",
+      "q_es": "",
+      "options_gl": [
+        "Beta",
+        "Potera",
+        "Volanta"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-163",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "Das artes de pesca seguintes, ¿cál é de enmalle á deriva?",
+      "q_es": "",
+      "options_gl": [
+        "Volanta",
+        "Rasco",
+        "Xeito"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-164",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Nos palangres, os cabos nos que van empatados os anzois, chámanse:",
+      "q_es": "",
+      "options_gl": [
+        "Brazas",
+        "Brazoladas",
+        "Liñas"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-165",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "Un cabo que pecha o arte de cerco pola parte de abaixo, denomínase:",
+      "q_es": "",
+      "options_gl": [
+        "Xareta",
+        "Corta avaríos",
+        "Enxarcia"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-166",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "O descanso semanal nas faenas de pesca en Galicia será de",
+      "q_es": "",
+      "options_gl": [
+        "24 horas",
+        "12 horas",
+        "48 horas"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-167",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "Como podemos saber se o pescado é fresco e está en boas condicións para o consumo?",
+      "q_es": "",
+      "options_gl": [
+        "Ten as branquias vermellas e a textura da carne é firme",
+        "Ten os ollos abultados e a córnea translócida",
+        "Todas as respostas son correctas"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-168",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "O máis empregado na conservación do peixe nos buques de pesca artesanal está fabricado con",
+      "q_es": "",
+      "options_gl": [
+        "Auga doce e en cubitos",
+        "Auga salgada e en escamas",
+        "Auga doce e en escamas"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-169",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "As instalacións e adegas para estibar o peixe",
+      "q_es": "",
+      "options_gl": [
+        "Poden empregarse para almacenar embalaxes",
+        "Só se deben empregar para almacenar o peixe",
+        "Poden empregarse para almacenar outros víveres"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-170",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "O factor máis importante na velocidade de deterioro do peixe é:",
+      "q_es": "",
+      "options_gl": [
+        "O seu tamaño",
+        "A temperatura",
+        "A especie"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-171",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "Na estiba deben separarse todo",
+      "q_es": "",
+      "options_gl": [
+        "As especies que desprenden olor e veo",
+        "As especies que desprenden olor a sabor",
+        "As especies que desprenden olor a amoniaco"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-172",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A distancia vertical medida dende a parte baixa da quilla ata a liña de flotación, denomínase:",
+      "q_es": "",
+      "options_gl": [
+        "Puntal",
+        "Manga",
+        "Calado"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-173",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O reforzo lonxitudinal que une as cadernas entre sí polo costado chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Vagra",
+        "Palmexar",
+        "Varenga"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-174",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A escala de calados que ven expresada en números arábigos é a de",
+      "q_es": "",
+      "options_gl": [
+        "Centímetros",
+        "Decímetros",
+        "Pes"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-175",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A envoltura da parte exterior das cadernas, chámase",
+      "q_es": "",
+      "options_gl": [
+        "Casco",
+        "Cuberta",
+        "Forro"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-176",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A parte do casco que está baixo a liña de flotación, chámase",
+      "q_es": "",
+      "options_gl": [
+        "Obra morta",
+        "Obra viva",
+        "Castelo"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-177",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Sitos dentro do buque, a parte esquerda mirando hacia popa é:",
+      "q_es": "",
+      "options_gl": [
+        "Estribor",
+        "Babor",
+        "Cruxía"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-178",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A parte máis curva do casco próxima a proa se chama",
+      "q_es": "",
+      "options_gl": [
+        "Caderna",
+        "Codaste",
+        "Amura"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-179",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A distancia vertical entre a quilla e a cubierta é:",
+      "q_es": "",
+      "options_gl": [
+        "Francobordo",
+        "Puntal",
+        "Calado"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-180",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "O ángulo que forma o meridiano magnético co xeográfico chámase",
+      "q_es": "",
+      "options_gl": [
+        "Corrección total",
+        "Declinación magnética",
+        "Desvío"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-181",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Como chamamos ao instrumento onde se le o rumbo?",
+      "q_es": "",
+      "options_gl": [
+        "Bitácora",
+        "Cubichete",
+        "Compás"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-182",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Cando decimos que o timón está \" a vía\" a pala do timón forma co eixe de cruxía, un ángulo de:",
+      "q_es": "",
+      "options_gl": [
+        "0 grados",
+        "10 grado",
+        "90 grados"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-183",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Un disco graduado con rumbos que na súa cara inferior leva uns imáns, recibe o nome de:",
+      "q_es": "",
+      "options_gl": [
+        "Compás",
+        "Brúxula",
+        "Rosa dos vientos"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-184",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "A declinación magnética (dm) varía según cambiemos de:",
+      "q_es": "",
+      "options_gl": [
+        "Compás",
+        "Rumbo",
+        "Zona xeográfica"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-185",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "No caso de estar dentro ou preto dunha zoa de visibilidade reducida e oír 2 pitadas longas a intervalos de 2 min., significará que hai un buque de propulsión mecánica que está...",
+      "q_es": "",
+      "options_gl": [
+        "Navegando",
+        "Parado",
+        "Varado"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-186",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Cando dous barcos estén á vista un do outro e un quere caer a estribor. ¿Cántas pitadas deberá emitir para indicar a súa intención?",
+      "q_es": "",
+      "options_gl": [
+        "Tres curtas",
+        "Unha curta",
+        "Dúas curtas"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-187",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Unha pitada curta significa un son dunha duración aproximada de:",
+      "q_es": "",
+      "options_gl": [
+        "Dous segundos",
+        "Un segundo",
+        "Medio segundo"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-188",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "¿Qué nos indican as marcas laterais vermellas e verdes?",
+      "q_es": "",
+      "options_gl": [
+        "Os límites dos canles de navegación",
+        "As zoas especiais para o baño",
+        "As zoas especiais para a navegación de recreo"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-189",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Se observamos unha boia esférica pintada a franxas verticais vermellas e brancas, indícanos...",
+      "q_es": "",
+      "options_gl": [
+        "Augas seguras ou navegables",
+        "Perigo illado",
+        "Cable submarino"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-190",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Os buques que naveguen por un canal ou paso angosto, farano:",
+      "q_es": "",
+      "options_gl": [
+        "O máis preto do límite exterior do canal que quede pola súa banda de babor",
+        "O máis preto do límite exterior do canal que quede pola súa banda de estribor",
+        "Polo centro do canal"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-191",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "No caso de navegar por un paso ou canal angosto, ¿cál dos seguintes tenrá preferencia?",
+      "q_es": "",
+      "options_gl": [
+        "Una embarcación de pesca",
+        "Un barco a vela",
+        "Un barco de gran tonelaxe"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-192",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Entre dous buques de propulsión mecánica, en situación de volta encontrada, a manobra será:",
+      "q_es": "",
+      "options_gl": [
+        "Os dous caerán a estribor",
+        "Manobra o de maior velocidade",
+        "Os dous caerán a babor"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-193",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "As superficies que entran en contacto co peixe deben esttar fabricadas o recubertas con",
+      "q_es": "",
+      "options_gl": [
+        "Materiais non tóxicos e resistentes a corrosión",
+        "Todas as respostas son correctas",
+        "Materiais rugosos para evitar que o peixe esvare"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-194",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "Os dous métodos prioritarios de conservación a bordo son",
+      "q_es": "",
+      "options_gl": [
+        "Conxelación e salazón",
+        "Refrixeración e conxelación",
+        "Salazón e refrixeración"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-195",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "O xeo conserva as capturas por",
+      "q_es": "",
+      "options_gl": [
+        "Refrixeración",
+        "Salazón",
+        "Conxelación"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-196",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "¿Cál destas non é unha maneira de conservar o peixe?",
+      "q_es": "",
+      "options_gl": [
+        "Conxelación",
+        "Refrixeración",
+        "Lixiviación"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-197",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "Para garantir as condicións hixenico-sanitarias, ao finalizar a manipulación deberase",
+      "q_es": "",
+      "options_gl": [
+        "Todas as respostas son correctas",
+        "Lavar e desinfectar o local,os instrumentos e a maquinaria",
+        "Recoller os residuos"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-198",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A parte do casco que está sobre a liña de flotación, chámase:",
+      "q_es": "",
+      "options_gl": [
+        "Castelo",
+        "Obra morta",
+        "Obra viva"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-199",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A parte dianteira dun buque chámase",
+      "q_es": "",
+      "options_gl": [
+        "Popa",
+        "Estribor",
+        "Proa"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-200",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "As pezas verticais sobre as que descansan os baos, chámanse:",
+      "q_es": "",
+      "options_gl": [
+        "Vagras",
+        "Puntais",
+        "Cadernas"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-201",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O arqueo é:",
+      "q_es": "",
+      "options_gl": [
+        "A capacidade do barco",
+        "O peso do barco",
+        "A carga do barco"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-202",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O cabrestante emprégase para:",
+      "q_es": "",
+      "options_gl": [
+        "Levar o rumbo",
+        "Manobrar con cabos",
+        "Fondear"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-203",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Baixar a áncora do escobén arriando cadea, denomínase:",
+      "q_es": "",
+      "options_gl": [
+        "Garrear",
+        "Apear",
+        "Levar"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-204",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "A lonxitude da cadea a fondear ten que ser:",
+      "q_es": "",
+      "options_gl": [
+        "Tres veces o fondo",
+        "Igual ao fondo",
+        "Igual a tres esloras"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-205",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "O orificio onde vai estibada a áncora e sae a cadea se chama:",
+      "q_es": "",
+      "options_gl": [
+        "Barbotén",
+        "Escobén",
+        "Molinete"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-206",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "En caso de fondear, cál será mellor tenedero dos seguintes fondos:",
+      "q_es": "",
+      "options_gl": [
+        "Pedra",
+        "Cascallo",
+        "Arcilla"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-207",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "¿Cál dos nomes que aparecen a continuación non se corresponde có das amarras do buque?:",
+      "q_es": "",
+      "options_gl": [
+        "Ostas",
+        "Través",
+        "Longo"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-208",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Se nos dín que poñamos rumbo noroeste, ¿cántos graos debemos",
+      "q_es": "",
+      "options_gl": [
+        "90º",
+        "315º",
+        "135º"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-209",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Se a declinación magnética é ao Oeste tomaráse como",
+      "q_es": "",
+      "options_gl": [
+        "Negativa",
+        "Neutra",
+        "Positiva"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-210",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Entrando nun peirao vemos unha baliza cónica de cor verde cunha franxa vermella no medio…",
+      "q_es": "",
+      "options_gl": [
+        "Indica que o canal é temporalmente non navegable",
+        "Indica que o canal principal está a babor",
+        "Indica que o canal principal está a estribor"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-211",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Unha baliza pintada totalmente de amarelo, quere decir…",
+      "q_es": "",
+      "options_gl": [
+        "Marca especial",
+        "Marca de babor",
+        "Augas seguras ou navegables"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-212",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Se se observa unha baliza a franxas horizontais vermellas e negras sabese que…",
+      "q_es": "",
+      "options_gl": [
+        "É unha variante do cardinal Leste",
+        "É unha marca de perigo illado",
+        "É un indicativo de regatas"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-213",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Buque cunha bola negra na súa parte de proa",
+      "q_es": "",
+      "options_gl": [
+        "Varado",
+        "Fondeado",
+        "En operacións de buceo"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-214",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Se se observa en navegación que outro buque non varía a súa demora ou marcación e se aproxima, é:",
+      "q_es": "",
+      "options_gl": [
+        "Que hai risco de abordaxe",
+        "Que o outro esté parado",
+        "Que vai a rumbo oposto ao noso"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-215",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Navegamos a motor nun barco de eslora inferior a 20 m. e detectamos un buque mercante pola banda de Br. aproximándose, nunha clara situación \"de cruce\". ¿Cál das seguintes é a máis correcta?",
+      "q_es": "",
+      "options_gl": [
+        "Seguir a rumbo e se a aproximación é excesiva, caer ampliamente a estribor",
+        "Caer inmediatamente a estribor",
+        "Caer inmediatamente a babor"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-216",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Pódese determinar que existe risco de abordaxe, cando unha embarcación ve á outra…",
+      "q_es": "",
+      "options_gl": [
+        "Pola súa mesma proa",
+        "Aproximarse sen que a súa marcación ou demora varíen de forma apreciable",
+        "Dentro dun radio de menos de 2 millas"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-217",
+      "exam": "Curso online",
+      "module": 1,
+      "q_gl": "Cando dous buques de propulsión mecánica leven derrotas que se crucen con risco de colisión, manobrará a que teña…",
+      "q_es": "",
+      "options_gl": [
+        "Ao outro polo seu costado de babor",
+        "Ao outro polo seu costado de estribor",
+        "Menor tamaño"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-218",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "O descanso semanal nas faenas da pesca en Galicia será de",
+      "q_es": "",
+      "options_gl": [
+        "24 horas",
+        "12 horas",
+        "48 horas"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-219",
+      "exam": "Curso online",
+      "module": 3,
+      "q_gl": "Ademáis da libreta de navegación, título de mariñeiro/a pescador/a e formación básica Qué outro requisito se require para poder embarcar?",
+      "q_es": "",
+      "options_gl": [
+        "Ser español",
+        "Recoñecemento médico",
+        "Ter 18 ano"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-220",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "A merluza eviscerada colocaráse no xeo co abdomen cara:",
+      "q_es": "",
+      "options_gl": [
+        "De lado",
+        "Abaixo",
+        "Riba"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-221",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "Na estiba de peixe a granel, empregaremos",
+      "q_es": "",
+      "options_gl": [
+        "3 partes de xeo por 2 de peixe",
+        "Igual cantidade de xeo e de peixe",
+        "2 partes de xeo por 3 de peixe"
+      ],
+      "options_es": [],
+      "answer": 2,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-222",
+      "exam": "Curso online",
+      "module": 2,
+      "q_gl": "Para saber o grao de frescura do peixe qué métodos se soen empregar?",
+      "q_es": "",
+      "options_gl": [
+        "Todas as respostas son correctas",
+        "Por apreciación de factores organolépticos",
+        "Análisis químico"
+      ],
+      "options_es": [],
+      "answer": 0,
+      "explanation_gl": ""
+    },
+    {
+      "id": "curso-223",
+      "exam": "Curso online",
+      "module": 4,
+      "q_gl": "Por regra xeral, na refrixeración do peixe na estiba en caixas, o espesor do xeo no fondo da caixa debe ser?",
+      "q_es": "",
+      "options_gl": [
+        "Uns 8 centímetros",
+        "Uns 5 centímetros",
+        "Uns 10 centímetros"
+      ],
+      "options_es": [],
+      "answer": 1,
+      "explanation_gl": ""
     }
   ]
 }
