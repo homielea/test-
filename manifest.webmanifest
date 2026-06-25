@@ -1,0 +1,17 @@
+{
+  "name": "Mariñeiro Pescador — Test",
+  "short_name": "Mariñeiro",
+  "description": "App de estudo para o exame de Mariñeiro/a Pescador/a en galego: tests, simulacro de exame e prácticas de nós.",
+  "lang": "gl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b4f6c",
+  "theme_color": "#0b4f6c",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "knots": [
+    {
+      "key": "as_de_guia",
+      "name_gl": "As de guía",
+      "name_es": "As de guía",
+      "image": "assets/knots/as_de_guia.png",
+      "exam_required": true,
+      "use_gl": "Forma unha gaza fixa que non se desliza no extremo dun cabo. Úsase para amarrar, unir, encapillar ou en rescates.",
+      "steps_gl": [
+        "Fai un seo (gaza pequena) no cabo, deixando chicote dabondo.",
+        "Pasa o chicote por dentro do seo, de abaixo cara arriba (o coello sae da toca).",
+        "Rodea o firme por detrás co chicote.",
+        "Volve introducir o chicote no seo (o coello volve á toca).",
+        "Aperta tirando do firme e do chicote á vez."
+      ]
+    },
+    {
+      "key": "chairo_llano",
+      "name_gl": "Nó chairo",
+      "name_es": "Nudo llano",
+      "image": "assets/knots/chairo_llano.png",
+      "exam_required": true,
+      "use_gl": "Une dous cabos de igual ou distinto diámetro. É moi forte e canto máis traballa máis se azoca, pero desfaise con rapidez.",
+      "steps_gl": [
+        "Cruza o chicote dereito sobre o esquerdo e pásao por debaixo.",
+        "Cruza agora o chicote esquerdo sobre o dereito e pásao por debaixo.",
+        "Aperta os dous chicotes á vez.",
+        "Regra para lembralo: «dereita sobre esquerda, esquerda sobre dereita»."
+      ]
+    },
+    {
+      "key": "dobre_lasca",
+      "name_gl": "Nó dobre ou lasca",
+      "name_es": "Nudo doble o lasca",
+      "image": "assets/knots/dobre_lasca.png",
+      "exam_required": true,
+      "use_gl": "Nó de tope que se fai no chicote dos cabos para que non se despasen polos motóns ou guías.",
+      "steps_gl": [
+        "Fai un seo preto do extremo do cabo.",
+        "Pasa o chicote arredor do firme.",
+        "Introduce o chicote polo seo.",
+        "Aperta para formar un tope groso no extremo."
+      ]
+    },
+    {
+      "key": "ballestrinque",
+      "name_gl": "Ballestrinque",
+      "name_es": "Ballestrinque",
+      "image": "assets/knots/ballestrinque.png",
+      "exam_required": true,
+      "use_gl": "Amarra un cabo a un poste, argola ou a outro cabo que non forme parte do nó.",
+      "steps_gl": [
+        "Pasa o cabo arredor do poste.",
+        "Crúzao sobre si mesmo e da unha segunda volta arredor do poste.",
+        "Pasa o chicote por debaixo desa última volta.",
+        "Aperta as dúas voltas."
+      ]
+    },
+    {
+      "key": "pescador",
+      "name_gl": "Nó de pescador",
+      "name_es": "Nudo de pescador",
+      "image": "assets/knots/pescador.png",
+      "exam_required": true,
+      "use_gl": "Une dous cabos de sección pequena.",
+      "steps_gl": [
+        "Coloca os dous cabos paralelos, apuntando en sentidos opostos.",
+        "Fai un nó simple cun cabo arredor do outro.",
+        "Fai outro nó simple co segundo cabo arredor do primeiro.",
+        "Tira dos firmes para que os dous nós se xunten e apoien."
+      ]
+    },
+    {
+      "key": "malla_cote",
+      "name_gl": "Malla, medio nó ou cote",
+      "name_es": "Malla, medio nudo o cote",
+      "image": "assets/knots/malla_cote.png",
+      "exam_required": false,
+      "use_gl": "Tamén chamado nó simple. É o elemento base dos demais nós. Serve para que non se despase un cabo ou para amarrar de forma provisional. É difícil de desfacer.",
+      "steps_gl": [
+        "Pasa o chicote arredor do firme ou dun obxecto.",
+        "Introduce o chicote polo seo que se forma.",
+        "Aperta. Para máis seguridade, da dous cotes seguidos."
+      ]
+    },
+    {
+      "key": "as_de_guia_dobre",
+      "name_gl": "As de guía dobre (por seno)",
+      "name_es": "As de guía doble o por seno",
+      "image": "assets/knots/as_de_guia_dobre.png",
+      "exam_required": false,
+      "use_gl": "Forma dúas gazas fixas que non se deslizan e que se poden usar xuntas ou por separado. Emprégase en rescates marítimos.",
+      "steps_gl": [
+        "Dobra o cabo formando un seo dobre.",
+        "Fai un as de guía coa parte dobrada, obtendo dúas gazas.",
+        "Pasa o seo final por arredor das dúas gazas.",
+        "Aperta con coidado igualando as gazas."
+      ]
+    },
+    {
+      "key": "margarita",
+      "name_gl": "Margarita",
+      "name_es": "Margarita",
+      "image": "assets/knots/margarita.png",
+      "exam_required": false,
+      "use_gl": "Acurta calquera cabo sen necesidade de cortalo, ou illa unha parte deteriorada para que non traballe.",
+      "steps_gl": [
+        "Recolle o cabo formando tres partes paralelas (un «S»).",
+        "Fai un cote en cada extremo arredor do seo correspondente.",
+        "Aperta con coidado mantendo a tensión nos firmes."
+      ]
+    },
+    {
+      "key": "tecedor",
+      "name_gl": "Nó de tecedor",
+      "name_es": "Nudo de tejedor",
+      "image": "assets/knots/tecedor.png",
+      "exam_required": false,
+      "use_gl": "Nó de empalme e axuste. É un dos mellores para traballar con xarcia miúda e para unir cabos de distinto grosor.",
+      "steps_gl": [
+        "Fai un seo no cabo máis groso.",
+        "Pasa o chicote do outro cabo polo seo, de abaixo cara arriba.",
+        "Rodea por detrás o seo e pasa o chicote por debaixo de si mesmo.",
+        "Aperta tirando dos dous firmes."
+      ]
+    },
+    {
+      "key": "ballestrinque_dobre",
+      "name_gl": "Ballestrinque dobre",
+      "name_es": "Ballestrinque doble",
+      "image": "assets/knots/ballestrinque_dobre.png",
+      "exam_required": false,
+      "use_gl": "Coma o ballestrinque, pero dando dúas voltas redondas en lugar dunha. Dá maior seguridade e non precisa dar cotes.",
+      "steps_gl": [
+        "Da dúas voltas redondas arredor do poste en vez dunha.",
+        "Pasa o chicote por debaixo da última volta.",
+        "Aperta ben as voltas."
+      ]
+    }
+  ],
+  "exam_note_gl": "No exame práctico hai que realizar 9 nós. Os 5 nomeados nas probas son: As de guía, Nó chairo, Dobre ou lasca, Ballestrinque e Pescador. Máximo de fallos na proba de nós: 2."
+}

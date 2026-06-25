@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b4f6c" />
+  <title>Mariñeiro Pescador — Test</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <button id="backBtn" class="icon-btn" hidden aria-label="Atrás">‹</button>
+    <h1 id="title">Mariñeiro Pescador</h1>
+    <div class="top-actions">
+      <button id="langBtn" class="chip" title="Idioma">GL</button>
+      <button id="audioBtn" class="chip" title="Audio (mans libres)" aria-pressed="false">🔊</button>
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- HOME -->
+    <section id="view-home" class="view">
+      <p class="lead">Estuda para o exame de <strong>Mariñeiro/a Pescador/a</strong> en galego. Funciona sen conexión.</p>
+      <div class="menu">
+        <button class="big-btn" data-go="practice"><span class="ico">📚</span><span><b>Practicar</b><small>Preguntas por módulo, con explicación</small></span></button>
+        <button class="big-btn" data-go="exam-setup"><span class="ico">📝</span><span><b>Simulacro de exame</b><small>30 preguntas · 50 min · apto con 20</small></span></button>
+        <button class="big-btn" data-go="knots"><span class="ico">🪢</span><span><b>Nós mariñeiros</b><small>Diagramas, pasos e test de nós</small></span></button>
+        <button class="big-btn" data-go="review"><span class="ico">🎯</span><span><b>Repasar fallos</b><small>As preguntas que máis fallas</small></span></button>
+      </div>
+      <p class="hint">Consello: activa <b>🔊</b> para escoitar as preguntas mentres camiñas.</p>
+      <p id="statsLine" class="stats-line"></p>
+    </section>
+
+    <!-- PRACTICE: module picker -->
+    <section id="view-practice" class="view" hidden>
+      <h2>Escolle un módulo</h2>
+      <div id="moduleList" class="menu"></div>
+    </section>
+
+    <!-- EXAM setup -->
+    <section id="view-exam-setup" class="view" hidden>
+      <h2>Simulacro de exame</h2>
+      <p class="lead">30 preguntas dos catro módulos. Tes <b>50 minutos</b>. Apróbase con <b>20 acertos</b> (máximo 10 fallos; no Módulo 2, máximo 5).</p>
+      <div id="examSourceList" class="menu"></div>
+    </section>
+
+    <!-- QUIZ (shared by practice / exam) -->
+    <section id="view-quiz" class="view" hidden>
+      <div class="quiz-head">
+        <div class="progress"><div id="progressBar" class="progress-bar"></div></div>
+        <div class="quiz-meta">
+          <span id="qCounter">1/30</span>
+          <span id="timer" class="timer" hidden>50:00</span>
+        </div>
+      </div>
+      <div id="moduleTag" class="module-tag"></div>
+      <p id="questionText" class="question"></p>
+      <div id="options" class="options"></div>
+      <div id="feedback" class="feedback" hidden></div>
+      <div class="quiz-actions">
+        <button id="replayAudio" class="ghost-btn" hidden>🔊 Repetir</button>
+        <button id="nextBtn" class="primary-btn" hidden>Seguinte ›</button>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="view-results" class="view" hidden>
+      <div id="resultBadge" class="result-badge"></div>
+      <h2 id="resultTitle"></h2>
+      <p id="resultScore" class="result-score"></p>
+      <div id="resultBreakdown" class="breakdown"></div>
+      <div class="quiz-actions">
+        <button id="reviewWrongBtn" class="ghost-btn" hidden>Revisar fallos</button>
+        <button id="resultHomeBtn" class="primary-btn">Inicio</button>
+      </div>
+    </section>
+
+    <!-- KNOTS list -->
+    <section id="view-knots" class="view" hidden>
+      <div class="seg">
+        <button class="seg-btn active" data-knottab="learn">Aprender</button>
+        <button class="seg-btn" data-knottab="quiz">Test de nós</button>
+      </div>
+      <div id="knotsLearn">
+        <p id="knotExamNote" class="exam-note"></p>
+        <div id="knotList" class="knot-grid"></div>
+      </div>
+      <div id="knotsQuiz" hidden>
+        <p class="lead">Identifica o nó. Recoñecer o nó e o seu uso é o que podes practicar mentres camiñas.</p>
+        <div id="knotQuizArea"></div>
+      </div>
+    </section>
+
+    <!-- KNOT detail -->
+    <section id="view-knot" class="view" hidden>
+      <h2 id="knotName"></h2>
+      <span id="knotReq" class="badge-req" hidden>Esixido no exame</span>
+      <img id="knotImg" class="knot-img" alt="" />
+      <p id="knotUse" class="knot-use"></p>
+      <h3>Pasos</h3>
+      <ol id="knotSteps" class="knot-steps"></ol>
+      <div class="quiz-actions">
+        <button id="knotSpeak" class="ghost-btn">🔊 Escoitar os pasos</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
