@@ -1,0 +1,125 @@
+:root{
+  --sea:#0b4f6c; --sea-d:#073647; --foam:#1b98a8; --sun:#f6ae2d;
+  --ok:#2e9e5b; --bad:#d64545; --bg:#f3f6f8; --card:#fff; --ink:#1c2b33; --muted:#5e7682;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  background:var(--bg); color:var(--ink);
+  -webkit-tap-highlight-color:transparent;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+.topbar{
+  position:sticky; top:0; z-index:10;
+  display:flex; align-items:center; gap:.5rem;
+  background:var(--sea); color:#fff;
+  padding:calc(.7rem + env(safe-area-inset-top)) .9rem .7rem;
+  box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
+.topbar h1{font-size:1.05rem; margin:0; flex:1; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.top-actions{display:flex; gap:.4rem}
+.chip{
+  background:rgba(255,255,255,.16); color:#fff; border:0; border-radius:999px;
+  padding:.35rem .6rem; font-size:.85rem; font-weight:700; min-width:2.4rem; cursor:pointer;
+}
+.chip[aria-pressed="true"]{background:var(--sun); color:#3a2a00}
+.icon-btn{background:transparent; border:0; color:#fff; font-size:1.8rem; line-height:1; padding:0 .3rem; cursor:pointer}
+
+main{max-width:680px; margin:0 auto; padding:1rem .9rem 3rem}
+.view{animation:fade .2s ease}
+@keyframes fade{from{opacity:0; transform:translateY(4px)}to{opacity:1}}
+h2{font-size:1.25rem; margin:.3rem 0 1rem}
+.lead{color:var(--muted); line-height:1.5; margin:.2rem 0 1rem}
+.hint{color:var(--muted); font-size:.85rem; margin-top:1.2rem; text-align:center}
+.stats-line{text-align:center; color:var(--muted); font-size:.85rem; margin-top:.6rem}
+
+.menu{display:flex; flex-direction:column; gap:.7rem}
+.big-btn{
+  display:flex; align-items:center; gap:.9rem; text-align:left;
+  background:var(--card); border:1px solid #e2e9ed; border-radius:16px;
+  padding:1rem; font-size:1rem; cursor:pointer; color:var(--ink);
+  box-shadow:0 1px 3px rgba(0,0,0,.05); transition:transform .08s;
+}
+.big-btn:active{transform:scale(.98)}
+.big-btn .ico{font-size:1.8rem; flex:none; width:2.2rem; text-align:center}
+.big-btn b{display:block; font-size:1.05rem}
+.big-btn small{display:block; color:var(--muted); margin-top:.15rem}
+
+/* QUIZ */
+.quiz-head{margin-bottom:.8rem}
+.progress{height:8px; background:#e2e9ed; border-radius:99px; overflow:hidden}
+.progress-bar{height:100%; width:0; background:var(--foam); transition:width .3s}
+.quiz-meta{display:flex; justify-content:space-between; margin-top:.4rem; font-size:.85rem; color:var(--muted)}
+.timer{font-variant-numeric:tabular-nums; font-weight:700}
+.timer.warn{color:var(--bad)}
+.module-tag{display:inline-block; background:#e7f3f5; color:var(--sea); font-size:.75rem;
+  font-weight:700; padding:.25rem .6rem; border-radius:99px; margin-bottom:.7rem}
+.question{font-size:1.2rem; line-height:1.45; font-weight:600; margin:.2rem 0 1.1rem}
+.options{display:flex; flex-direction:column; gap:.6rem}
+.opt{
+  display:flex; align-items:center; gap:.7rem; text-align:left;
+  background:var(--card); border:2px solid #e2e9ed; border-radius:14px;
+  padding:.9rem 1rem; font-size:1.05rem; cursor:pointer; color:var(--ink); width:100%;
+}
+.opt .letter{
+  flex:none; width:1.9rem; height:1.9rem; border-radius:50%; background:#eef3f5;
+  display:grid; place-items:center; font-weight:800; color:var(--sea); font-size:.95rem;
+}
+.opt:active{transform:scale(.99)}
+.opt.correct{border-color:var(--ok); background:#e9f7ef}
+.opt.correct .letter{background:var(--ok); color:#fff}
+.opt.wrong{border-color:var(--bad); background:#fcebeb}
+.opt.wrong .letter{background:var(--bad); color:#fff}
+.opt.dim{opacity:.55}
+.opt:disabled{cursor:default}
+
+.feedback{margin-top:1rem; padding:.9rem 1rem; border-radius:12px; line-height:1.5; font-size:.95rem}
+.feedback.ok{background:#e9f7ef; border-left:4px solid var(--ok)}
+.feedback.bad{background:#fcebeb; border-left:4px solid var(--bad)}
+.feedback b{display:block; margin-bottom:.2rem}
+
+.quiz-actions{display:flex; gap:.6rem; margin-top:1.2rem; justify-content:flex-end; flex-wrap:wrap}
+.primary-btn{background:var(--sea); color:#fff; border:0; border-radius:12px; padding:.85rem 1.4rem;
+  font-size:1.05rem; font-weight:700; cursor:pointer}
+.primary-btn:active{transform:scale(.98)}
+.ghost-btn{background:transparent; border:2px solid #cdd9df; color:var(--sea); border-radius:12px;
+  padding:.7rem 1rem; font-weight:700; cursor:pointer}
+
+/* RESULTS */
+.result-badge{font-size:4rem; text-align:center; margin:1rem 0 .3rem}
+#resultTitle{text-align:center; margin:.2rem 0}
+.result-score{text-align:center; font-size:1.4rem; font-weight:800; margin:.2rem 0 1.4rem}
+.result-score.pass{color:var(--ok)} .result-score.fail{color:var(--bad)}
+.breakdown{display:flex; flex-direction:column; gap:.5rem; margin-bottom:1rem}
+.brow{display:flex; justify-content:space-between; background:var(--card); border:1px solid #e2e9ed;
+  border-radius:10px; padding:.6rem .8rem; font-size:.95rem}
+.brow b{font-variant-numeric:tabular-nums}
+.brow.fail b{color:var(--bad)} .brow.pass b{color:var(--ok)}
+
+/* KNOTS */
+.seg{display:flex; background:#e2e9ed; border-radius:12px; padding:.25rem; margin-bottom:1rem}
+.seg-btn{flex:1; border:0; background:transparent; padding:.6rem; border-radius:9px; font-weight:700;
+  color:var(--muted); cursor:pointer}
+.seg-btn.active{background:#fff; color:var(--sea); box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.exam-note{background:#fff7e6; border-left:4px solid var(--sun); padding:.7rem .9rem; border-radius:10px;
+  font-size:.9rem; line-height:1.5; margin:0 0 1rem}
+.knot-grid{display:grid; grid-template-columns:1fr 1fr; gap:.7rem}
+.knot-card{background:var(--card); border:1px solid #e2e9ed; border-radius:14px; padding:.6rem;
+  cursor:pointer; text-align:center}
+.knot-card img{width:100%; height:90px; object-fit:contain; background:#fff}
+.knot-card span{display:block; font-weight:700; font-size:.9rem; margin-top:.4rem}
+.knot-card .req{display:inline-block; font-size:.65rem; background:var(--sun); color:#3a2a00;
+  border-radius:99px; padding:.1rem .45rem; margin-top:.3rem}
+.badge-req{display:inline-block; background:var(--sun); color:#3a2a00; font-size:.75rem; font-weight:700;
+  border-radius:99px; padding:.2rem .6rem; margin-bottom:.6rem}
+.knot-img{width:100%; max-height:320px; object-fit:contain; background:#fff; border:1px solid #e2e9ed;
+  border-radius:14px; padding:.5rem}
+.knot-use{line-height:1.5; color:var(--ink); margin:.8rem 0}
+.knot-steps{line-height:1.6; padding-left:1.2rem}
+.knot-steps li{margin-bottom:.5rem}
+
+/* Knot quiz */
+.kq-img{width:100%; max-height:240px; object-fit:contain; background:#fff; border:1px solid #e2e9ed;
+  border-radius:14px; padding:.5rem; margin-bottom:1rem}
+.kq-prompt{font-weight:600; font-size:1.1rem; margin-bottom:1rem}

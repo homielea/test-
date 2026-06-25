@@ -1,0 +1,1286 @@
+{
+  "modules": [
+    {
+      "id": 1,
+      "gl": "A embarcación de pesca",
+      "es": "La embarcación de pesca"
+    },
+    {
+      "id": 2,
+      "gl": "Regulamento internacional para previr as abordaxes no mar",
+      "es": "Reglamento internacional para prevenir los abordajes en el mar"
+    },
+    {
+      "id": 3,
+      "gl": "A práctica dunha pesca responsable",
+      "es": "La práctica de una pesca responsable"
+    },
+    {
+      "id": 4,
+      "gl": "Manipulación e conservación dos produtos pesqueiros",
+      "es": "Manipulación y conservación de los productos pesqueros"
+    }
+  ],
+  "questions": [
+    {
+      "id": "xuno2018-1",
+      "exam": "Xuño 2018",
+      "module": 1,
+      "q_gl": "Como se chaman os reforzos lonxitudinais que unen as cuadernas entre si polo costado:",
+      "q_es": "Cómo se llaman los refuerzos longitudinales que unen las cuadernas entre sí por el costado:",
+      "options_gl": [
+        "Varengas",
+        "Sobrequilla",
+        "Palmellares",
+        "Vagras"
+      ],
+      "options_es": [
+        "Varengas",
+        "Sobrequilla",
+        "Palmejares",
+        "Vagras"
+      ],
+      "answer": 2,
+      "explanation_gl": "Os palmellares son os reforzos lonxitudinais que unen as cuadernas polo costado; as vagras son tamén lonxitudinais pero van no fondo, e as varengas son transversais."
+    },
+    {
+      "id": "xuno2018-2",
+      "exam": "Xuño 2018",
+      "module": 1,
+      "q_gl": "Situados dentro do buque, a parte esquerda mirando cara á popa é:",
+      "q_es": "Situados dentro del buque, la parte izquierda mirando hacia popa es:",
+      "options_gl": [
+        "Estribor",
+        "Cruxía",
+        "Costado",
+        "Babor"
+      ],
+      "options_es": [
+        "Estribor",
+        "Crujía",
+        "Costado",
+        "Babor"
+      ],
+      "answer": 0,
+      "explanation_gl": "Mirando cara á popa, a man esquerda corresponde a estribor (porque estribor é o costado dereito mirando cara á proa)."
+    },
+    {
+      "id": "xuno2018-3",
+      "exam": "Xuño 2018",
+      "module": 1,
+      "q_gl": "Como se denomina a deformación da quilla cara a arriba (cando se carga máis nos extremos que no centro):",
+      "q_es": "Cómo se denomina la deformación de la quilla hacia arriba (Cuando se carga más en los extremos que en el centro):",
+      "options_gl": [
+        "Asento",
+        "Arqueo",
+        "Arrufo",
+        "Quebranto"
+      ],
+      "options_es": [
+        "Asiento",
+        "Arqueo",
+        "Arrufo",
+        "Quebranto"
+      ],
+      "answer": 3,
+      "explanation_gl": "O quebranto é a deformación na que a quilla se arquea cara a arriba ao cargar máis nos extremos que no centro; o arrufo é o caso contrario."
+    },
+    {
+      "id": "xuno2018-4",
+      "exam": "Xuño 2018",
+      "module": 1,
+      "q_gl": "Como se chama o aparello formado por un motón no que facemos firme un dos chicotes do cabo e suspendemos o peso do motón:",
+      "q_es": "Cómo se llama el aparejo formado por un motón en el que hacemos firme uno de los chicotes del cabo y suspendemos el peso del motón:",
+      "options_gl": [
+        "Lanteón",
+        "Palanquín",
+        "Tecle",
+        "Combés"
+      ],
+      "options_es": [
+        "Lanteón",
+        "Palanquín",
+        "Tecle",
+        "Combés"
+      ],
+      "answer": 0,
+      "explanation_gl": "O lanteón é o aparello dun só motón no que un chicote se fai firme e o peso queda suspendido do motón, dando unha vantaxe mecánica simple."
+    },
+    {
+      "id": "xuno2018-5",
+      "exam": "Xuño 2018",
+      "module": 1,
+      "q_gl": "Como se chama a máquina destinada a mover as áncoras:",
+      "q_es": "Cómo se llama la máquina destinada a mover las anclas:",
+      "options_gl": [
+        "Cabrestante",
+        "Guinches",
+        "Muíñete",
+        "Maquinilla"
+      ],
+      "options_es": [
+        "Cabrestante",
+        "Guinches",
+        "Molinete",
+        "Maquinilla"
+      ],
+      "answer": 2,
+      "explanation_gl": "O muíñete (molinete) é a máquina de eixe horizontal destinada especificamente a virar a cadea e mover as áncoras."
+    },
+    {
+      "id": "xuno2018-6",
+      "exam": "Xuño 2018",
+      "module": 1,
+      "q_gl": "Como se chaman as pezas situadas na cuberta para amarrar os cabos:",
+      "q_es": "Cómo se llaman las piezas situadas en la cubierta para amarrar los cabos:",
+      "options_gl": [
+        "Gateiras",
+        "Bitas",
+        "Norais",
+        "Bolardos"
+      ],
+      "options_es": [
+        "Gateras",
+        "Bitas",
+        "Norays",
+        "Bolardos"
+      ],
+      "answer": 1,
+      "explanation_gl": "As bitas son as pezas fixas na cuberta do buque que serven para amarrar e facer firmes os cabos; os norais e bolardos están no peirao, non a bordo."
+    },
+    {
+      "id": "xuno2018-7",
+      "exam": "Xuño 2018",
+      "module": 1,
+      "q_gl": "O rumbo S40W vale:",
+      "q_es": "El rumbo S40W vale:",
+      "options_gl": [
+        "230",
+        "220",
+        "140",
+        "130"
+      ],
+      "options_es": [
+        "230",
+        "220",
+        "140",
+        "130"
+      ],
+      "answer": 1,
+      "explanation_gl": "O rumbo cuadrantal S40W mídese dende o Sur (180°) cara ao Oeste: 180° + 40° = 220°."
+    },
+    {
+      "id": "xuno2018-8",
+      "exam": "Xuño 2018",
+      "module": 1,
+      "q_gl": "A operación de arriar cadea cando se está fondeando a áncora chámase:",
+      "q_es": "La operación de arriar cadena cuando se está fondeando el ancla se llama:",
+      "options_gl": [
+        "Filar",
+        "Garrear",
+        "Bornear",
+        "Virar"
+      ],
+      "options_es": [
+        "Filar",
+        "Garrear",
+        "Bornear",
+        "Virar"
+      ],
+      "answer": 0,
+      "explanation_gl": "Filar é arriar ou soltar cadea durante a fondeadura; virar é o contrario (recoller cadea) e garrear é cando a áncora arrastra polo fondo."
+    },
+    {
+      "id": "xuno2018-9",
+      "exam": "Xuño 2018",
+      "module": 1,
+      "q_gl": "As áncoras nun buque serven para:",
+      "q_es": "Las anclas en un buque sirven para:",
+      "options_gl": [
+        "Para que o barco navegue mellor con mal tempo",
+        "Aguantar o barco cando está fondeado",
+        "Amarrar o barco ao peirao",
+        "As respostas a e c son correctas"
+      ],
+      "options_es": [
+        "Para que el barco navegue mejor con mal tiempo",
+        "Aguantar el barco cuando está fondeado",
+        "Amarrar el barco al muelle",
+        "Las respuestas a y c son correctas"
+      ],
+      "answer": 1,
+      "explanation_gl": "A función da áncora é fixar e aguantar o barco no fondo cando está fondeado, impedindo que garree co vento e a corrente."
+    },
+    {
+      "id": "xuno2018-10",
+      "exam": "Xuño 2018",
+      "module": 1,
+      "q_gl": "Se o motor non arranca por unha compresión insignificante, que se debe facer:",
+      "q_es": "Si el motor no arranca por una compresión insignificante, qué se debe hacer:",
+      "options_gl": [
+        "Abrir a válvula de combustible ao sistema",
+        "Purgar o circuíto de combustible",
+        "Cargar ou cambiar a batería",
+        "Cambiar aros de pistón"
+      ],
+      "options_es": [
+        "Abrir la válvula de combustible al sistema",
+        "Purgar el circuito de combustible",
+        "Cargar o cambiar la batería",
+        "Cambiar aros de pistón"
+      ],
+      "answer": 3,
+      "explanation_gl": "A falta de compresión adoita deberse ao desgaste dos aros do pistón, que deixan escapar gases; a solución é substituílos para recuperar a compresión."
+    },
+    {
+      "id": "xuno2018-11",
+      "exam": "Xuño 2018",
+      "module": 2,
+      "q_gl": "A luz de tope é unha luz branca mirando cara á proa cun arco visible de:",
+      "q_es": "La luz de tope es una luz blanca mirando hacia proa con un arco visible de:",
+      "options_gl": [
+        "112,5°",
+        "135°",
+        "225°",
+        "360°"
+      ],
+      "options_es": [
+        "112,5°",
+        "135°",
+        "225°",
+        "360°"
+      ],
+      "answer": 2,
+      "explanation_gl": "Segundo o RIPA, a luz de tope é branca e abrangue un arco de horizonte de 225°, de proa a 22,5° por detrás do través de cada banda."
+    },
+    {
+      "id": "xuno2018-12",
+      "exam": "Xuño 2018",
+      "module": 2,
+      "q_gl": "Entre un buque dedicado á pesca e un buque de vela. Quen manobra:",
+      "q_es": "Entre un buque dedicado a la pesca y un buque de vela. Quién maniobra:",
+      "options_gl": [
+        "O buque dedicado á pesca",
+        "O buque de vela",
+        "Os dous a estribor",
+        "Os dous a babor"
+      ],
+      "options_es": [
+        "El buque dedicado a la pesca",
+        "El buque de vela",
+        "Los dos a estribor",
+        "Los dos a babor"
+      ],
+      "answer": 1,
+      "explanation_gl": "Na orde de preferencia do RIPA (regra 18), o buque de vela debe apartarse da derrota do buque dedicado á pesca, polo que é o de vela quen manobra."
+    },
+    {
+      "id": "xuno2018-13",
+      "exam": "Xuño 2018",
+      "module": 2,
+      "q_gl": "Se escoitamos unha pitada longa seguida de dúas curtas, pertence a:",
+      "q_es": "Si escuchamos una pitada larga seguida de dos cortas, pertenece a:",
+      "options_gl": [
+        "Un buque sen goberno",
+        "Un buque fondeado",
+        "Un buque de propulsión mecánica navegando e sen arrancada",
+        "Todas as respostas anteriores son correctas"
+      ],
+      "options_es": [
+        "Un buque sin gobierno",
+        "Un buque fondeado",
+        "Un buque de propulsión mecánica navegando y sin arrancada",
+        "Todas las respuestas anteriores son correctas"
+      ],
+      "answer": 0,
+      "explanation_gl": "Unha pitada longa seguida de dúas curtas é o sinal de néboa (regra 35) emitido por buques que non gobernan, con capacidade de manobra restrinxida, restrinxidos polo seu calado, de vela, pescando ou remolcando; entre as opcións, o buque sen goberno."
+    },
+    {
+      "id": "xuno2018-14",
+      "exam": "Xuño 2018",
+      "module": 2,
+      "q_gl": "Un buque con capacidade de manobra restrinxida navegando, de noite que luces exhibirá:",
+      "q_es": "Un buque con capacidad de maniobra restringida navegando, de noche qué luces exhibirá:",
+      "options_gl": [
+        "Vermella vermella branca todo horizonte en liña vertical",
+        "Branca vermella vermella todo horizonte en liña vertical",
+        "Vermella branca vermella todo horizonte en liña vertical",
+        "Vermella vermella vermella todo horizonte en liña vertical"
+      ],
+      "options_es": [
+        "Roja roja blanca todo horizonte en línea vertical",
+        "Blanca roja roja todo horizonte en línea vertical",
+        "Roja blanca roja todo horizonte en línea vertical",
+        "Roja roja roja todo horizonte en línea vertical"
+      ],
+      "answer": 2,
+      "explanation_gl": "O buque con capacidade de manobra restrinxida exhibe tres luces todo horizonte en liña vertical, vermella-branca-vermella (regra 27)."
+    },
+    {
+      "id": "xuno2018-15",
+      "exam": "Xuño 2018",
+      "module": 2,
+      "q_gl": "Un buque fondeado que luces mostrará:",
+      "q_es": "Un buque fondeado qué luces mostrará:",
+      "options_gl": [
+        "Unha luz branca todo horizonte á proa se é menor de 50 metros",
+        "Dúas luces brancas todo horizonte, unha á proa e outra á popa se é maior de 50 metros",
+        "Dúas luces brancas de tope, unha á proa e outra á popa se é maior de 50 metros",
+        "Son correctas as respostas a e b"
+      ],
+      "options_es": [
+        "Una luz blanca todo horizonte a proa si es menor de 50 metros",
+        "Dos luces blancas todo horizonte, una a proa y otra a popa si es mayor de 50 metros",
+        "Dos luces blancas de tope, una a proa y otra a popa si es mayor de 50 metros",
+        "Son correctas las respuestas a y b"
+      ],
+      "answer": 3,
+      "explanation_gl": "Segundo a regra 30, o buque fondeado de menos de 50 m leva unha luz branca todo horizonte á proa, e o de 50 m ou máis leva dúas (unha á proa e outra á popa máis baixa); polo tanto son correctas a e b."
+    },
+    {
+      "id": "xuno2018-16",
+      "exam": "Xuño 2018",
+      "module": 2,
+      "q_gl": "Cando dous buques navegando se atopan nunha situación de cruzamento e con risco de abordaxe, quen debe manobrar:",
+      "q_es": "Cuando dos buques navegando se encuentran en una situación de cruce y con riesgo de abordaje, quién debe maniobrar:",
+      "options_gl": [
+        "Os dous caendo a estribor",
+        "O que teña ao outro polo seu costado de estribor",
+        "O que teña ao outro polo seu costado de babor",
+        "Os dous caendo a babor"
+      ],
+      "options_es": [
+        "Los dos cayendo a estribor",
+        "El que tenga al otro por su costado de estribor",
+        "El que tenga al otro por su costado de babor",
+        "Los dos cayendo a babor"
+      ],
+      "answer": 1,
+      "explanation_gl": "Na situación de cruzamento (regra 15), o buque que ve ao outro pola súa banda de estribor debe ceder o paso e manobrar, evitando cruzar pola súa proa."
+    },
+    {
+      "id": "xuno2018-17",
+      "exam": "Xuño 2018",
+      "module": 2,
+      "q_gl": "Que luces exhibirá un remolcador cando a lonxitude do remolque é menor de 200 metros:",
+      "q_es": "Qué luces exhibirá un remolcador cuando la longitud del remolque es menor de 200 metros:",
+      "options_gl": [
+        "Dúas luces de tope en liña vertical",
+        "Tres luces de tope en liña vertical",
+        "Unha de tope e outra todo horizonte",
+        "Dúas luces de tope e outra todo horizonte amarela"
+      ],
+      "options_es": [
+        "Dos luces de tope en línea vertical",
+        "Tres luces de tope en línea vertical",
+        "Una de tope y otra todo horizonte",
+        "Dos luces de tope y otra todo horizonte amarillo"
+      ],
+      "answer": 0,
+      "explanation_gl": "Segundo a regra 24, cando a lonxitude do remolque é menor ou igual a 200 m, o remolcador exhibe dúas luces de tope en liña vertical; se supera os 200 m serían tres."
+    },
+    {
+      "id": "xuno2018-18",
+      "exam": "Xuño 2018",
+      "module": 2,
+      "q_gl": "Na rexión A, por que costado se debe deixar, saíndo do porto, unha boia que emite unha luz de cor vermella:",
+      "q_es": "En la región A, por qué costado se debe dejar, saliendo del puerto, una boya que emite una luz de color rojo:",
+      "options_gl": [
+        "Por calquera costado",
+        "Por babor",
+        "Por estribor",
+        "Igual que ao entrar no porto"
+      ],
+      "options_es": [
+        "Por cualquier costado",
+        "Por babor",
+        "Por estribor",
+        "Igual que al entrar en puerto"
+      ],
+      "answer": 2,
+      "explanation_gl": "Na rexión A, as marcas laterais de babor son vermellas. Ao saír do porto a navegación é inversa, polo que unha boia vermella debe deixarse por estribor."
+    },
+    {
+      "id": "xuno2018-19",
+      "exam": "Xuño 2018",
+      "module": 2,
+      "q_gl": "De que cor deben ser as dúas bolas do tope dunha marca de perigo illado:",
+      "q_es": "De qué color deben ser las dos bolas del tope de una marca de peligro aislado:",
+      "options_gl": [
+        "Vermellas",
+        "Verdes",
+        "Amarelas",
+        "Negras"
+      ],
+      "options_es": [
+        "Rojas",
+        "Verdes",
+        "Amarillas",
+        "Negras"
+      ],
+      "answer": 3,
+      "explanation_gl": "A marca de tope dunha baliza de perigo illado son dúas bolas negras superpostas; o corpo da boia é negro con franxas vermellas."
+    },
+    {
+      "id": "xuno2018-20",
+      "exam": "Xuño 2018",
+      "module": 2,
+      "q_gl": "Cal é a marca de tope da boia do sistema cardinal que nos indica augas seguras ou navegables no cuadrante Oeste:",
+      "q_es": "Cuál es la marca de tope de la boya del sistema cardinal que nos indica aguas seguras o navegables en el cuadrante Oeste:",
+      "options_gl": [
+        "Dous conos negros superpostos cos vértices cara a abaixo",
+        "Dous conos negros superpostos opostos polos vértices",
+        "Dous conos negros superpostos cos vértices cara a arriba",
+        "Dous conos negros superpostos opostos pola base"
+      ],
+      "options_es": [
+        "Dos conos negros superpuestos con los vértices hacia abajo",
+        "Dos conos negros superpuestos opuestos por los vértices",
+        "Dos conos negros superpuestos con los vértices hacia arriba",
+        "Dos conos negros superpuestos opuestos por la base"
+      ],
+      "answer": 1,
+      "explanation_gl": "A marca cardinal Oeste leva dous conos negros opostos polos vértices (forma de reloxo de area), indicando que as augas seguras quedan polo lado oeste."
+    },
+    {
+      "id": "xuno2018-21",
+      "exam": "Xuño 2018",
+      "module": 3,
+      "q_gl": "Cal destas artes traballa case estendida sobre o fondo:",
+      "q_es": "Cuál de estas artes trabaja casi tendida sobre el fondo:",
+      "options_gl": [
+        "Volantas",
+        "Betas",
+        "Rascos",
+        "Trasmallos"
+      ],
+      "options_es": [
+        "Volantas",
+        "Betas",
+        "Rascos",
+        "Trasmallos"
+      ],
+      "answer": 2,
+      "explanation_gl": "O rasco é unha rede de enmalle de fondo que traballa case estendida sobre o leito mariño, dirixida a especies como o peixe sapo ou raias."
+    },
+    {
+      "id": "xuno2018-22",
+      "exam": "Xuño 2018",
+      "module": 3,
+      "q_gl": "O Miño está composto por cantas tralhas:",
+      "q_es": "El Miño está compuesto por cuántas trallas:",
+      "options_gl": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "options_es": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation_gl": "O miño é unha rede de enmalle dunha soa folla (rede de pano único) que se compón de dúas tralhas: a superior (de flotadores) e a inferior (de pesos)."
+    },
+    {
+      "id": "xuno2018-23",
+      "exam": "Xuño 2018",
+      "module": 3,
+      "q_gl": "Como se chama a arte que pesca envolvendo mediante rodeo o banco de peixes e que se pecha en forma de bolsa pola parte inferior:",
+      "q_es": "Cómo se llama el arte que pesca envolviendo mediante rodeo el banco de peces y que se cierra en forma de bolsa por la parte inferior:",
+      "options_gl": [
+        "Arte de arrastre",
+        "Arte de enmalle",
+        "Arte de deriva",
+        "Arte de cerco"
+      ],
+      "options_es": [
+        "Arte de arrastre",
+        "Arte de enmalle",
+        "Arte de deriva",
+        "Arte de cerco"
+      ],
+      "answer": 3,
+      "explanation_gl": "A arte de cerco rodea o banco de peixes cun pano de rede e péchase pola parte inferior co xareto formando unha bolsa, atrapando o peixe."
+    },
+    {
+      "id": "xuno2018-24",
+      "exam": "Xuño 2018",
+      "module": 3,
+      "q_gl": "O rastrillo, o rastro, o angazo etc. son útiles de pesca que pertencen ao grupo de:",
+      "q_es": "El rastrillo, el rastro, el angazo etc. Son útiles de pesca que pertenecen al grupo de:",
+      "options_gl": [
+        "Os de recolección",
+        "Os ferintes",
+        "As trampas",
+        "Arrastre"
+      ],
+      "options_es": [
+        "Los de recolección",
+        "Los hirientes",
+        "Las trampas",
+        "Arrastre"
+      ],
+      "answer": 0,
+      "explanation_gl": "O rastrillo, o rastro e o angazo son útiles de recolección, empregados no marisqueo para extraer mariscos e moluscos do fondo ou da area."
+    },
+    {
+      "id": "xuno2018-25",
+      "exam": "Xuño 2018",
+      "module": 3,
+      "q_gl": "Segundo MARPOL, os aceites e residuos de combustibles e outros hidrocarburos poden descargarse no mar:",
+      "q_es": "Según MARPOL, los aceites y residuos de combustibles y otros hidrocarburos pueden descargarse en el mar:",
+      "options_gl": [
+        "Pódense descargar no mar co buque navegando a máis de 12 millas",
+        "En ningún caso. Serán retidos a bordo para a súa descarga en porto nunha instalación MARPOL autorizada",
+        "Pódense descargar no mar a través de equipo separador a máis de 3 millas",
+        "Pódense descargar no mar a través de equipo separador a máis de 12 millas"
+      ],
+      "options_es": [
+        "Se pueden descargar en el mar con el buque navegando a más de 12 millas",
+        "En ningún caso. Serán retenidos a bordo para su descarga en puerto en una instalación MARPOL autorizada",
+        "Se pueden descargar en el mar a través de equipo separador a más de 3 millas",
+        "Se pueden descargar en el mar a través de equipo separador a más de 12 millas"
+      ],
+      "answer": 1,
+      "explanation_gl": "Para os buques pesqueiros pequenos, os aceites e residuos de hidrocarburos non se poden verter ao mar; deben reterse a bordo e entregarse en porto nunha instalación MARPOL autorizada."
+    },
+    {
+      "id": "xuno2018-26",
+      "exam": "Xuño 2018",
+      "module": 4,
+      "q_gl": "No procesado do peixe, os coitelos que se utilizan deben ter:",
+      "q_es": "En el procesado del pescado, los cuchillos que se utilizan deben tener:",
+      "options_gl": [
+        "Folla de metal con mango de plástico",
+        "Folla de metal con mango de madeira",
+        "Folla de material inoxidable con mango de madeira",
+        "Folla de material inoxidable con mango de plástico"
+      ],
+      "options_es": [
+        "Hoja de metal con mango de plástico",
+        "Hoja de metal con mango de madera",
+        "Hoja de material inoxidable con mango de madera",
+        "Hoja de material inoxidable con mango de plástico"
+      ],
+      "answer": 3,
+      "explanation_gl": "Por hixiene, os coitelos deben ter folla de material inoxidable e mango de plástico, materiais lisos e non porosos que se limpan e desinfectan facilmente, a diferenza da madeira."
+    },
+    {
+      "id": "xuno2018-27",
+      "exam": "Xuño 2018",
+      "module": 4,
+      "q_gl": "O xeo máis utilizado na conservación do peixe nos buques de pesca artesanal está fabricado con:",
+      "q_es": "El hielo más utilizado en la conservación del pescado en los buques de pesca artesanal está fabricado con:",
+      "options_gl": [
+        "Auga doce e en escamas",
+        "Auga salgada e en cubiños",
+        "Auga salgada e en escamas",
+        "Auga doce e en cubiños"
+      ],
+      "options_es": [
+        "Agua dulce y en escamas",
+        "Agua salada y en cubitos",
+        "Agua salada y en escamas",
+        "Agua dulce y en cubitos"
+      ],
+      "answer": 0,
+      "explanation_gl": "O xeo en escamas de auga doce é o máis usado na pesca artesanal porque arrefría rápido, non danas o peixe e cobre ben a superficie sen aristas duras."
+    },
+    {
+      "id": "xuno2018-28",
+      "exam": "Xuño 2018",
+      "module": 4,
+      "q_gl": "As instalacións ou adegas para estibar o peixe:",
+      "q_es": "Las instalaciones o bodegas para estibar el pescado:",
+      "options_gl": [
+        "Poden utilizarse para almacenar outros víveres",
+        "Non deben utilizarse só para almacenar peixe",
+        "Non deben utilizarse para almacenar outros víveres",
+        "Poden utilizarse para almacenar embalaxes"
+      ],
+      "options_es": [
+        "Pueden utilizarse para almacenar otros víveres",
+        "No deben utilizarse solo para almacenar pescado",
+        "No deben utilizarse para almacenar otros víveres",
+        "Pueden utilizarse para almacenar embalajes"
+      ],
+      "answer": 2,
+      "explanation_gl": "As adegas de peixe deben dedicarse en exclusiva ao peixe; non deben utilizarse para almacenar outros víveres para evitar contaminacións cruzadas e malos cheiros."
+    },
+    {
+      "id": "xuno2018-29",
+      "exam": "Xuño 2018",
+      "module": 4,
+      "q_gl": "As caixas de estiba do peixe deben ser:",
+      "q_es": "Las cajas de estiba del pescado deben ser:",
+      "options_gl": [
+        "De plástico, apilables, con esquinas pechadas e sen ranuras de drenaxe",
+        "De plástico, apilables, con esquinas redondeadas e ranuras de drenaxe",
+        "De madeira, apilables e con esquinas redondeadas",
+        "De plástico, apilables e estancas"
+      ],
+      "options_es": [
+        "De plástico, apilables, con esquinas cerradas y sin ranuras de drenaje",
+        "De plástico, apilables, con esquinas redondeadas y ranuras de drenaje",
+        "De madera, apilables y con esquinas redondeadas",
+        "De plástico, apilables y estancas"
+      ],
+      "answer": 1,
+      "explanation_gl": "As caixas deben ser de plástico, apilables, con esquinas redondeadas (fáciles de limpar) e ranuras de drenaxe para evacuar a auga de fusión do xeo e evitar que o peixe quede encharcado."
+    },
+    {
+      "id": "xuno2018-30",
+      "exam": "Xuño 2018",
+      "module": 4,
+      "q_gl": "Por regra xeral, na refrixeración do peixe na estiba en caixas o grosor de xeo no fondo da caixa debe ser de:",
+      "q_es": "Por regla general, en la refrigeración del pescado en la estiba en cajas el espesor de hielo en el fondo de la caja debe ser de:",
+      "options_gl": [
+        "Uns 5 centímetros",
+        "Uns 15 centímetros",
+        "Uns 10 centímetros",
+        "Uns 20 centímetros"
+      ],
+      "options_es": [
+        "Unos 5 centímetros",
+        "Unos 15 centímetros",
+        "Unos 10 centímetros",
+        "Unos 20 centímetros"
+      ],
+      "answer": 0,
+      "explanation_gl": "Recoméndase un leito de xeo duns 5 cm no fondo da caixa, suficiente para arrefriar dende abaixo e drenar a auga sen ocupar espazo excesivo."
+    },
+    {
+      "id": "marzo2018-1",
+      "exam": "Marzo 2018",
+      "module": 1,
+      "q_gl": "Cal destas pezas ou consolidacións non forma parte da estrutura lonxitudinal dun buque:",
+      "q_es": "Cuál de estas piezas o consolidaciones no forman parte de la estructura longitudinal de un buque:",
+      "options_gl": [
+        "Varengas",
+        "Sobrequilla",
+        "Palmellares",
+        "Vagras"
+      ],
+      "options_es": [
+        "Varengas",
+        "Sobrequilla",
+        "Palmejares",
+        "Vagras"
+      ],
+      "answer": 0,
+      "explanation_gl": "As varengas son elementos da estrutura transversal (forman parte das cuadernas no fondo), mentres que sobrequilla, palmellares e vagras son lonxitudinais."
+    },
+    {
+      "id": "marzo2018-2",
+      "exam": "Marzo 2018",
+      "module": 1,
+      "q_gl": "Situados dentro do buque, na liña de cruxía a parte dereita mirando cara á popa é:",
+      "q_es": "Situados dentro del buque, en la línea de crujía la parte derecha mirando hacia popa es:",
+      "options_gl": [
+        "Estribor",
+        "Cruxía",
+        "Costado",
+        "Babor"
+      ],
+      "options_es": [
+        "Estribor",
+        "Crujía",
+        "Costado",
+        "Babor"
+      ],
+      "answer": 3,
+      "explanation_gl": "Mirando cara á popa, a man dereita corresponde a babor (xa que babor é o costado esquerdo mirando cara á proa)."
+    },
+    {
+      "id": "marzo2018-3",
+      "exam": "Marzo 2018",
+      "module": 1,
+      "q_gl": "Como se denomina a deformación do casco en forma de U:",
+      "q_es": "Cómo se denomina la deformación del casco en forma de U:",
+      "options_gl": [
+        "Asento",
+        "Arqueo",
+        "Arrufo",
+        "Quebranto"
+      ],
+      "options_es": [
+        "Asiento",
+        "Arqueo",
+        "Arrufo",
+        "Quebranto"
+      ],
+      "answer": 2,
+      "explanation_gl": "O arrufo é a deformación na que o casco se curva en forma de U (afúndese no centro), ao cargar máis no centro que nos extremos; o quebranto é o caso contrario (forma de A)."
+    },
+    {
+      "id": "marzo2018-4",
+      "exam": "Marzo 2018",
+      "module": 1,
+      "q_gl": "O peso dun buque listo para navegar, pero sen carga, é o desprazamento:",
+      "q_es": "El peso de un buque listo para navegar, pero sin carga, es el desplazamiento:",
+      "options_gl": [
+        "En baleiro",
+        "En lastre",
+        "En rosca",
+        "En ruta"
+      ],
+      "options_es": [
+        "En vacío",
+        "En lastre",
+        "En rosca",
+        "En ruta"
+      ],
+      "answer": 2,
+      "explanation_gl": "O desprazamento en rosca é o peso do buque baleiro listo para navegar, sen carga, sen combustible, sen pertrechos nin tripulación."
+    },
+    {
+      "id": "marzo2018-5",
+      "exam": "Marzo 2018",
+      "module": 1,
+      "q_gl": "Que fibra das que se citan non é de orixe natural:",
+      "q_es": "Qué fibra de las que se citan no es de origen natural:",
+      "options_gl": [
+        "Sisal",
+        "Abacá",
+        "Polipropileno",
+        "Cánabo"
+      ],
+      "options_es": [
+        "Sisal",
+        "Abacá",
+        "Polipropileno",
+        "Cáñamo"
+      ],
+      "answer": 2,
+      "explanation_gl": "As fibras naturais como o sisal, o abacá e o cánabo proceden de plantas; o polipropileno é unha fibra sintética derivada do petróleo."
+    },
+    {
+      "id": "marzo2018-6",
+      "exam": "Marzo 2018",
+      "module": 1,
+      "q_gl": "Para que serven as sentinas:",
+      "q_es": "Para qué sirven las sentinas:",
+      "options_gl": [
+        "Para estibar parte da carga",
+        "Para recoller os vertidos de líquidos da carga",
+        "Para levar combustible",
+        "Para estibar os cabos"
+      ],
+      "options_es": [
+        "Para estibar parte de la carga",
+        "Para recoger los derrames de líquidos de la carga",
+        "Para llevar combustible",
+        "Para estibar los cabos"
+      ],
+      "answer": 1,
+      "explanation_gl": "As sentinas son a parte máis baixa do fondo do barco onde se recollen as augas e os vertidos de líquidos para logo achicalos."
+    },
+    {
+      "id": "marzo2018-7",
+      "exam": "Marzo 2018",
+      "module": 1,
+      "q_gl": "Como se chama o cabo de amarre que saíndo de proa vai en dirección a popa e impide que o buque se desprace cara á proa:",
+      "q_es": "Cómo se llama el cabo de amarre que saliendo de proa va en dirección a popa e impide que el buque se desplace hacia proa:",
+      "options_gl": [
+        "Codera",
+        "Través",
+        "Largo",
+        "Esprín"
+      ],
+      "options_es": [
+        "Codera",
+        "Través",
+        "Largo",
+        "Esprín"
+      ],
+      "answer": 3,
+      "explanation_gl": "O esprín (o spring de proa) sae da proa cara á popa e impide que o buque avance ou se desprace cara adiante; o de popa impide o retroceso."
+    },
+    {
+      "id": "marzo2018-8",
+      "exam": "Marzo 2018",
+      "module": 1,
+      "q_gl": "O rumbo N15W vale:",
+      "q_es": "El rumbo N15W vale:",
+      "options_gl": [
+        "015",
+        "285",
+        "195",
+        "345"
+      ],
+      "options_es": [
+        "015",
+        "285",
+        "195",
+        "345"
+      ],
+      "answer": 3,
+      "explanation_gl": "O rumbo cuadrantal N15W mídese dende o Norte (000°/360°) cara ao Oeste: 360° - 15° = 345°."
+    },
+    {
+      "id": "marzo2018-9",
+      "exam": "Marzo 2018",
+      "module": 1,
+      "q_gl": "A expresión timón á vía, significa:",
+      "q_es": "La expresión timón a la vía, significa:",
+      "options_gl": [
+        "Gobernar o rumbo que nese momento indica o compás",
+        "Reducir caída cara á banda o máis rápido posible",
+        "Manter o timón en dirección proa-popa",
+        "Diminuír a metida de timón pouco a pouco ata deixar a cero"
+      ],
+      "options_es": [
+        "Gobernar el rumbo que en ese momento indica el compás",
+        "Reducir caída hacia la banda lo más rápido posible",
+        "Mantener el timón en dirección proa-popa",
+        "Disminuir la metida de timón poco a poco hasta dejar a cero"
+      ],
+      "answer": 2,
+      "explanation_gl": "A orde timón á vía significa pór o timón na dirección proa-popa (a cero/no medio do barco), de xeito que o buque siga o rumbo que leva sen caer a ningunha banda."
+    },
+    {
+      "id": "marzo2018-10",
+      "exam": "Marzo 2018",
+      "module": 1,
+      "q_gl": "Se o motor non arranca por unha compresión insignificante, que se debe facer:",
+      "q_es": "Si el motor no arranca por una compresión insignificante, qué se debe hacer:",
+      "options_gl": [
+        "Cambiar aros de pistón",
+        "Cargar ou cambiar a batería",
+        "Purgar o circuíto de combustible",
+        "Abrir a válvula de combustible ao sistema"
+      ],
+      "options_es": [
+        "Cambiar aros de pistón",
+        "Cargar o cambiar la batería",
+        "Purgar el circuito de combustible",
+        "Abrir la válvula de combustible al sistema"
+      ],
+      "answer": 0,
+      "explanation_gl": "A falta de compresión adoita deberse ao desgaste dos aros do pistón, que deixan escapar gases; a solución é substituílos para recuperar a compresión."
+    },
+    {
+      "id": "marzo2018-11",
+      "exam": "Marzo 2018",
+      "module": 2,
+      "q_gl": "Un buque de vela deberá apartarse da derrota de:",
+      "q_es": "Un buque de vela deberá apartarse de la derrota de:",
+      "options_gl": [
+        "Un buque de pesca",
+        "Un remolcador",
+        "Un cableiro",
+        "Todas as respostas anteriores son correctas"
+      ],
+      "options_es": [
+        "Un buque de Pesca",
+        "Un Remolcador",
+        "Un Cablero",
+        "Todas las respuestas anteriores son correctas"
+      ],
+      "answer": 3,
+      "explanation_gl": "Na orde de preferencia (regra 18), o buque de vela debe apartarse dos buques que non gobernan, de manobra restrinxida (como un cableiro) e dos dedicados á pesca; un remolcador en faena adoita ter manobra restrinxida, polo que todas son correctas."
+    },
+    {
+      "id": "marzo2018-12",
+      "exam": "Marzo 2018",
+      "module": 2,
+      "q_gl": "Se escoitamos unha pitada longa seguida de dúas curtas, pertence a:",
+      "q_es": "Si escuchamos una pitada larga seguida de dos cortas, pertenece a:",
+      "options_gl": [
+        "Un buque fondeado",
+        "Un buque sen goberno",
+        "Un buque de propulsión mecánica navegando e sen arrancada",
+        "Todas as respostas anteriores son correctas"
+      ],
+      "options_es": [
+        "Un buque fondeado",
+        "Un buque sin gobierno",
+        "Un buque de propulsión mecánica navegando y sin arrancada",
+        "Todas las respuestas anteriores son correctas"
+      ],
+      "answer": 1,
+      "explanation_gl": "A pitada longa seguida de dúas curtas é o sinal de néboa (regra 35) dos buques que non gobernan, de manobra restrinxida, de vela, pescando ou remolcando; entre as opcións corresponde ao buque sen goberno."
+    },
+    {
+      "id": "marzo2018-13",
+      "exam": "Marzo 2018",
+      "module": 2,
+      "q_gl": "Buque que mostra tres bolas negras en liña vertical, pertence a un buque:",
+      "q_es": "Buque que muestra tres bolas negras en línea vertical, pertenece a un buque:",
+      "options_gl": [
+        "En operacións de mergullo",
+        "Fondeado",
+        "Varado",
+        "Sen goberno"
+      ],
+      "options_es": [
+        "En operaciones de buceo",
+        "Fondeado",
+        "Varado",
+        "Sin gobierno"
+      ],
+      "answer": 2,
+      "explanation_gl": "Tres bolas negras en liña vertical son a marca diúrna dun buque varado (encallado), segundo a regra 30 do RIPA."
+    },
+    {
+      "id": "marzo2018-14",
+      "exam": "Marzo 2018",
+      "module": 2,
+      "q_gl": "Un buque mostra en liña vertical tres luces vermellas todo horizonte, ademais das correspondentes de tope e costados. Trátase de:",
+      "q_es": "Un buque muestra en línea vertical tres luces rojas todo horizonte, además de las correspondientes de tope y costados. Se trata de:",
+      "options_gl": [
+        "Buque restrinxido polo seu calado",
+        "Remolcador remolcando con lonxitude de remolque superior a 200 metros",
+        "Buque con capacidade de manobra restrinxida",
+        "Un buque sen goberno e con arrancada"
+      ],
+      "options_es": [
+        "Buque restringido por su calado",
+        "Remolcador remolcando con longitud de remolque superior a 200 metros",
+        "Buque con capacidad de maniobra restringida",
+        "Un buque sin gobierno y con arrancada"
+      ],
+      "answer": 0,
+      "explanation_gl": "O buque restrinxido polo seu calado exhibe tres luces vermellas todo horizonte en liña vertical, ademais das luces de tope e costados ao ir con arrancada (regra 28)."
+    },
+    {
+      "id": "marzo2018-15",
+      "exam": "Marzo 2018",
+      "module": 2,
+      "q_gl": "Un buque en navegación, de propulsión mecánica e de eslora inferior a 12 m, poderá levar:",
+      "q_es": "Un buque en navegación, de propulsión mecánica y de eslora inferior a 12 m., podrá llevar:",
+      "options_gl": [
+        "Unha luz de tope, as luces de costado e a luz de alcance",
+        "Unha luz branca todo horizonte, as luces de costado e a luz de alcance",
+        "Unha luz branca todo horizonte e as luces de costado",
+        "Son correctas as respostas a e c"
+      ],
+      "options_es": [
+        "Una luz de tope, las luces de costado y la luz de alcance",
+        "Una luz blanca todo horizonte, las luces de costado y la luz de alcance",
+        "Una luz blanca todo horizonte y las luces de costado",
+        "Son correctas las respuestas a y c"
+      ],
+      "answer": 3,
+      "explanation_gl": "Segundo a regra 23, un buque de propulsión mecánica de menos de 12 m pode levar a luz de tope, costados e alcance, ou ben unha luz branca todo horizonte cos costados; por iso son correctas a e c."
+    },
+    {
+      "id": "marzo2018-16",
+      "exam": "Marzo 2018",
+      "module": 2,
+      "q_gl": "Cando dous buques navegando se atopan nunha situación de cruzamento e con risco de abordaxe, quen debe manobrar:",
+      "q_es": "Cuando dos buques navegando se encuentran en una situación de cruce y con riesgo de abordaje, quién debe maniobrar:",
+      "options_gl": [
+        "Os dous caendo a estribor",
+        "O que teña ao outro polo seu costado de estribor",
+        "O que teña ao outro polo seu costado de babor",
+        "Os dous caendo a babor"
+      ],
+      "options_es": [
+        "Los dos cayendo a estribor",
+        "El que tenga al otro por su costado de estribor",
+        "El que tenga al otro por su costado de babor",
+        "Los dos cayendo a babor"
+      ],
+      "answer": 1,
+      "explanation_gl": "Na situación de cruzamento (regra 15), o buque que ve ao outro pola súa banda de estribor debe ceder o paso e manobrar, evitando cruzar pola súa proa."
+    },
+    {
+      "id": "marzo2018-17",
+      "exam": "Marzo 2018",
+      "module": 2,
+      "q_gl": "Un buque con capacidade de manobra restrinxida navegando de día mostrará:",
+      "q_es": "Un buque con capacidad de maniobra restringida navegando de día mostrará:",
+      "options_gl": [
+        "Bóla rombo bóla de cor negra en liña vertical",
+        "Bóla bóla rombo de cor negra en liña vertical",
+        "Rombo bóla bóla de cor negra en liña vertical",
+        "Rombo rombo bóla de cor negra en liña vertical"
+      ],
+      "options_es": [
+        "Bola rombo bola de color negro en línea vertical",
+        "Bola bola rombo de color negro en línea vertical",
+        "Rombo bola bola de color negro en línea vertical",
+        "Rombo rombo bola de color negro en línea vertical"
+      ],
+      "answer": 0,
+      "explanation_gl": "A marca diúrna do buque con capacidade de manobra restrinxida é, en liña vertical, bóla-rombo-bóla de cor negra (regra 27)."
+    },
+    {
+      "id": "marzo2018-18",
+      "exam": "Marzo 2018",
+      "module": 2,
+      "q_gl": "Na rexión A, por que costado se debe deixar, saíndo do porto, unha boia que emite unha luz de cor vermella:",
+      "q_es": "En la región A, por qué costado se debe dejar, saliendo del puerto, una boya que emite una luz de color rojo:",
+      "options_gl": [
+        "Por calquera costado",
+        "Por babor",
+        "Por estribor",
+        "Igual que ao entrar no porto"
+      ],
+      "options_es": [
+        "Por cualquier costado",
+        "Por babor",
+        "Por estribor",
+        "Igual que al entrar en puerto"
+      ],
+      "answer": 2,
+      "explanation_gl": "Na rexión A, as marcas laterais de babor son vermellas. Ao saír do porto a navegación é inversa, polo que unha boia vermella debe deixarse por estribor."
+    },
+    {
+      "id": "marzo2018-19",
+      "exam": "Marzo 2018",
+      "module": 2,
+      "q_gl": "De que cor deben ser as dúas bolas do tope dunha marca de perigo illado:",
+      "q_es": "De qué color deben ser las dos bolas del tope de una marca de peligro aislado:",
+      "options_gl": [
+        "Vermellas",
+        "Negras",
+        "Amarelas",
+        "Verdes"
+      ],
+      "options_es": [
+        "Rojas",
+        "Negras",
+        "Amarillas",
+        "Verdes"
+      ],
+      "answer": 1,
+      "explanation_gl": "A marca de tope dunha baliza de perigo illado son dúas bolas negras superpostas; o corpo da boia é negro con franxas vermellas."
+    },
+    {
+      "id": "marzo2018-20",
+      "exam": "Marzo 2018",
+      "module": 2,
+      "q_gl": "Cal é a marca de tope da boia do sistema cardinal que nos indica augas seguras ou navegables no cuadrante este:",
+      "q_es": "Cuál es la marca de tope de la boya del sistema cardinal que nos indica aguas seguras o navegables en el cuadrante este:",
+      "options_gl": [
+        "Dous conos negros superpostos cos vértices cara a abaixo",
+        "Dous conos negros superpostos opostos polos vértices",
+        "Dous conos negros superpostos cos vértices cara a arriba",
+        "Dous conos negros superpostos opostos pola base"
+      ],
+      "options_es": [
+        "Dos conos negros superpuestos con los vértices hacia abajo",
+        "Dos conos negros superpuestos opuestos por los vértices",
+        "Dos conos negros superpuestos con los vértices hacia arriba",
+        "Dos conos negros superpuestos opuestos por la base"
+      ],
+      "answer": 3,
+      "explanation_gl": "A marca cardinal Este leva dous conos negros opostos pola base (formando un rombo), indicando que as augas seguras quedan polo lado este."
+    },
+    {
+      "id": "marzo2018-21",
+      "exam": "Marzo 2018",
+      "module": 3,
+      "q_gl": "Cal destas artes traballa case estendida sobre o fondo:",
+      "q_es": "Cuál de estas artes trabaja casi tendida sobre el fondo:",
+      "options_gl": [
+        "Volantas",
+        "Betas",
+        "Rascos",
+        "Trasmallos"
+      ],
+      "options_es": [
+        "Volantas",
+        "Betas",
+        "Rascos",
+        "Trasmallos"
+      ],
+      "answer": 2,
+      "explanation_gl": "O rasco é unha rede de enmalle de fondo que traballa case estendida sobre o leito mariño, dirixida a especies como o peixe sapo ou raias."
+    },
+    {
+      "id": "marzo2018-22",
+      "exam": "Marzo 2018",
+      "module": 3,
+      "q_gl": "O trasmallo está composto por cantas tralhas:",
+      "q_es": "El Trasmallo está compuesto por cuántas trallas:",
+      "options_gl": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "options_es": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation_gl": "O trasmallo está formado por tres panos de rede superpostos (dous exteriores de malla grande e un interior de malla pequena), pero móntase sobre dúas tralhas: a superior de flotadores e a inferior de pesos."
+    },
+    {
+      "id": "marzo2018-23",
+      "exam": "Marzo 2018",
+      "module": 3,
+      "q_gl": "Cal destas afirmacións non pertence ao código de conduta para que o pescador realice unha pesca artesanal responsable?",
+      "q_es": "¿Cuál de estas afirmaciones no pertenece al código de conducta para que el pescador realice una pesca artesanal responsable?",
+      "options_gl": [
+        "Utilizar exclusivamente artes, aparellos e sistemas de calado autorizados",
+        "Colaborar coa Administración e coa comunidade científica",
+        "Aumentar ao máximo a cantidade de material a bordo que se poida transformar en residuos",
+        "Utilizar sistemas de calado que reduzan a perda de artes e os efectos negativos das artes perdidas"
+      ],
+      "options_es": [
+        "Utilizar exclusivamente artes, aparejos y sistemas de calado autorizados",
+        "Colaborar con la Administración y con la comunidad científica",
+        "Aumentar al máximo la cantidad de material a bordo que se pueda transformar en desperdicio",
+        "Utilizar sistemas de calado que reduzcan la pérdida de artes y los efectos negativos de las artes perdidas"
+      ],
+      "answer": 2,
+      "explanation_gl": "Unha pesca responsable busca reducir os residuos, non aumentalos; polo tanto, aumentar ao máximo o material que se transforma en residuos é contrario ao código de conduta."
+    },
+    {
+      "id": "marzo2018-24",
+      "exam": "Marzo 2018",
+      "module": 3,
+      "q_gl": "Como se chama o exemplo de útil máis coñecido como trampas:",
+      "q_es": "Cómo se llama el ejemplo de útil más conocido como trampas:",
+      "options_gl": [
+        "Rastrillo",
+        "Angazo",
+        "Nasas",
+        "Draga"
+      ],
+      "options_es": [
+        "Rastrillo",
+        "Angazo",
+        "Nasas",
+        "Draga"
+      ],
+      "answer": 2,
+      "explanation_gl": "As nasas son o exemplo máis coñecido de útiles de pesca do tipo trampa: o peixe ou marisco entra nelas atraído polo cebo e non pode saír."
+    },
+    {
+      "id": "marzo2018-25",
+      "exam": "Marzo 2018",
+      "module": 3,
+      "q_gl": "O aceite de cociña usado poderá descargarse:",
+      "q_es": "El aceite de cocina usado podrá descargarse:",
+      "options_gl": [
+        "Hai que retelo a bordo para a súa descarga en porto nunha instalación MARPOL autorizada",
+        "Descárgase xunto coas augas sucias a máis de 12 millas",
+        "Nas mesmas condicións que os restos de comida",
+        "Descárgase xunto coas augas sucias a máis de 3 millas"
+      ],
+      "options_es": [
+        "Hay que retenerlo a bordo para su descarga en puerto en una instalación MARPOL autorizada",
+        "Se descarga junto con las aguas sucias a más de 12 millas",
+        "En las mismas condiciones que los restos de comida",
+        "Se descarga junto con las aguas sucias a más de 3 millas"
+      ],
+      "answer": 0,
+      "explanation_gl": "O aceite de cociña usado é un residuo que non se pode verter ao mar; débese reter a bordo e entregar en porto nunha instalación MARPOL autorizada."
+    },
+    {
+      "id": "marzo2018-26",
+      "exam": "Marzo 2018",
+      "module": 4,
+      "q_gl": "No procesado do peixe, os coitelos que se utilizan deben ter:",
+      "q_es": "En el procesado del pescado, los cuchillos que se utilizan deben tener:",
+      "options_gl": [
+        "Folla de metal con mango de plástico",
+        "Folla de material inoxidable con mango de plástico",
+        "Folla de material inoxidable con mango de madeira",
+        "Folla de metal con mango de madeira"
+      ],
+      "options_es": [
+        "Hoja de metal con mango de plástico",
+        "Hoja de material inoxidable con mango de plástico",
+        "Hoja de material inoxidable con mango de madera",
+        "Hoja de metal con mango de madera"
+      ],
+      "answer": 1,
+      "explanation_gl": "Por hixiene, os coitelos deben ter folla de material inoxidable e mango de plástico, materiais lisos e non porosos que se limpan e desinfectan facilmente, a diferenza da madeira."
+    },
+    {
+      "id": "marzo2018-27",
+      "exam": "Marzo 2018",
+      "module": 4,
+      "q_gl": "A pescada evisceada colocarase no xeo co abdome cara a:",
+      "q_es": "La merluza eviscerada se colocará en el hielo con el abdomen hacia:",
+      "options_gl": [
+        "Abaixo",
+        "Arriba",
+        "De lado",
+        "Indistintamente"
+      ],
+      "options_es": [
+        "Abajo",
+        "Arriba",
+        "De lado",
+        "Indistintamente"
+      ],
+      "answer": 0,
+      "explanation_gl": "A pescada evisceada colócase co abdome (a barriga aberta) cara a abaixo para que drene ben e a auga de fusión do xeo non se acumule na cavidade abdominal."
+    },
+    {
+      "id": "marzo2018-28",
+      "exam": "Marzo 2018",
+      "module": 4,
+      "q_gl": "Para garantir as condicións hixiénico-sanitarias, ao finalizar a manipulación, deberase:",
+      "q_es": "Para garantizar las condiciones higiénico-sanitarias, al finalizar la manipulación, se deberá:",
+      "options_gl": [
+        "Recoller os residuos e lavar e desinfectar o local, os instrumentos e a maquinaria",
+        "Recoller os residuos e lavar o local con mangueira",
+        "Recoller os residuos e lavar o local, os instrumentos e a maquinaria",
+        "Recoller os residuos e lavar o local con deterxentes biodegradables"
+      ],
+      "options_es": [
+        "Recoger los residuos y lavar y desinfectar el local, los instrumentos y la maquinaria",
+        "Recoger los residuos y lavar el local con manguera",
+        "Recoger los residuos y lavar el local, los instrumentos y la maquinaria",
+        "Recoger los residuos y lavar el local con detergentes biodegradables"
+      ],
+      "answer": 0,
+      "explanation_gl": "Ao rematar a manipulación cómpre recoller os residuos e non só lavar, senón tamén desinfectar o local, os instrumentos e a maquinaria, para eliminar os microorganismos e garantir a hixiene."
+    },
+    {
+      "id": "marzo2018-29",
+      "exam": "Marzo 2018",
+      "module": 4,
+      "q_gl": "Como podemos saber se o peixe é fresco e está en boas condicións de consumo:",
+      "q_es": "Cómo podemos saber si el pescado es fresco y está en buenas condiciones de consumo:",
+      "options_gl": [
+        "Ten os ollos avultados e córnea translúcida",
+        "Ten as branquias vermellas e carne de textura firme",
+        "Non podemos saber a súa frescura polo aspecto dos ollos",
+        "Son correctas as respostas a e b"
+      ],
+      "options_es": [
+        "Tiene los ojos abultados y córnea translúcida",
+        "Tiene las branquias rojas y carne de textura firme",
+        "No podemos saber su frescura por el aspecto de los ojos",
+        "Son correctas las respuestas a y b"
+      ],
+      "answer": 3,
+      "explanation_gl": "O peixe fresco recoñécese polos ollos avultados e córnea translúcida, polas branquias vermellas e brillantes e pola carne firme; por iso son correctas a e b."
+    },
+    {
+      "id": "marzo2018-30",
+      "exam": "Marzo 2018",
+      "module": 4,
+      "q_gl": "Por regra xeral, na refrixeración do peixe na estiba a granel a cantidade de xeo a utilizar é de:",
+      "q_es": "Por regla general, en la refrigeración del pescado en la estiba a granel la cantidad de hielo a utilizar es de:",
+      "options_gl": [
+        "Dúas partes de xeo por dúas de peixe",
+        "Dúas partes de xeo por catro de peixe",
+        "Dúas partes de xeo por tres de peixe",
+        "Dúas partes de xeo por unha de peixe"
+      ],
+      "options_es": [
+        "Dos partes de hielo por dos de pescado",
+        "Dos partes de hielo por cuatro de pescado",
+        "Dos partes de hielo por tres de pescado",
+        "Dos partes de hielo por una de pescado"
+      ],
+      "answer": 2,
+      "explanation_gl": "Como regra xeral, na estiba a granel emprégase unha proporción aproximada de dúas partes de xeo por cada tres de peixe para manter a cadea de frío sen excesos."
+    }
+  ]
+}
