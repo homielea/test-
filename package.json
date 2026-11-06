@@ -7,7 +7,7 @@
   "engines": { "node": ">=22.13" },
   "scripts": {
     "start": "node --no-warnings=ExperimentalWarning src/server.js",
-    "seed": "node --no-warnings=ExperimentalWarning src/seed.js",
+    "lab": "node --no-warnings=ExperimentalWarning src/cli.js",
     "test": "node --no-warnings=ExperimentalWarning --test --test-concurrency=1 test/*.test.js",
     "supervisor": "node --no-warnings=ExperimentalWarning supervisor/supervisor.js",
     "e2e": "node --no-warnings=ExperimentalWarning test/e2e/browser-journey.mjs"

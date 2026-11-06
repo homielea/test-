@@ -222,7 +222,7 @@ export class LabStore {
   }
 
   listBusinesses() {
-    return this.db.prepare('SELECT id, name, config_json FROM businesses ORDER BY created_at, id').all()
+    return this.db.prepare("SELECT id, name, config_json FROM businesses ORDER BY json_extract(config_json, '$.order'), id").all()
       .map((r) => ({ id: r.id, name: r.name, config: pj(r.config_json) }));
   }
 

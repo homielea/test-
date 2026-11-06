@@ -12,10 +12,10 @@ const PRICE = { 'claude-opus-5-5': [4, 20], 'claude-sonnet-5-5': [2, 10], 'claud
 
 export function anthropicStatus(env = process.env) {
   const missing = [];
-  if (env.LAB_ADAPTER !== 'anthropic') missing.push('LAB_ADAPTER=anthropic not set');
   if (!env.ANTHROPIC_API_KEY) missing.push('ANTHROPIC_API_KEY not set');
   const budget = Number(env.LAB_MAX_BUDGET_USD || 0);
   if (!(budget > 0)) missing.push('LAB_MAX_BUDGET_USD not configured (real-model path stays disabled without a budget)');
+  if (env.LAB_ADAPTER !== 'anthropic') missing.push('LAB_ADAPTER=anthropic not set');
   return { available: missing.length === 0, budget_usd: budget || null, model: MODEL, missing };
 }
 

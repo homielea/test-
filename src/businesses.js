@@ -19,6 +19,7 @@ export const BUSINESSES = [
   {
     id: 'natea',
     name: 'NATEA',
+    order: 1,
     tagline: 'International property buyers and worker accommodation around Ferrol, plus automation services.',
     region: 'Ferrol and surrounding area (Galicia, Spain)',
     owner: 'Lea',
@@ -94,6 +95,7 @@ export const BUSINESSES = [
   {
     id: 'rewire',
     name: 'REWIRE',
+    order: 2,
     tagline: 'Organizational diagnostics and AI-native work design.',
     region: 'Remote / international',
     owner: 'Lea',
@@ -134,6 +136,7 @@ export const BUSINESSES = [
   {
     id: 'polypreneur',
     name: 'Polypreneur',
+    order: 3,
     tagline: 'Product experiments and content.',
     region: 'Online',
     owner: 'Lea',
