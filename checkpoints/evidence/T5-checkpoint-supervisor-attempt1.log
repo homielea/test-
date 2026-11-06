@@ -1,0 +1,88 @@
+# T5-checkpoint-supervisor: Four-hour checkpoint and coding supervisor controls
+# attempt 1 at 2026-11-06T18:37:40.708Z
+# acceptance:
+#  - App checkpoint has one recommended decision, alternatives and exact resume instructions
+#  - Supervisor start/stop/status/resume tested
+#  - Deadline and stop terminate child processes
+#  - Identical failures stop retrying; permission denial blocks
+
+# --- acceptance check ---
+$ node --no-warnings --test test/checkpoint.test.js test/supervisor.test.js
+TAP version 13
+# Subtest: checkpoint recommends exactly one decision, with alternatives and exact resume commands
+ok 1 - checkpoint recommends exactly one decision, with alternatives and exact resume commands
+  ---
+  duration_ms: 66.300298
+  type: 'test'
+  ...
+# Subtest: with an empty queue the checkpoint names the real-model authorisation as the decision
+ok 2 - with an empty queue the checkpoint names the real-model authorisation as the decision
+  ---
+  duration_ms: 15.295395
+  type: 'test'
+  ...
+# Subtest: server writes an app checkpoint only when 4 wall-clock hours have elapsed since the last one
+ok 3 - server writes an app checkpoint only when 4 wall-clock hours have elapsed since the last one
+  ---
+  duration_ms: 38.949711
+  type: 'test'
+  ...
+# Subtest: start --detach, status, duplicate refusal, stop (kills child), resume to completion
+ok 4 - start --detach, status, duplicate refusal, stop (kills child), resume to completion
+  ---
+  duration_ms: 552.357259
+  type: 'test'
+  ...
+# Subtest: SIGKILLed supervisor: resume kills the orphaned child and reconciles without redoing work
+ok 5 - SIGKILLed supervisor: resume kills the orphaned child and reconciles without redoing work
+  ---
+  duration_ms: 520.579822
+  type: 'test'
+  ...
+# Subtest: deadline stops the loop, terminates the child, and blocks a later resume
+ok 6 - deadline stops the loop, terminates the child, and blocks a later resume
+  ---
+  duration_ms: 2140.111423
+  type: 'test'
+  ...
+# Subtest: identical failures stop retrying; changed evidence allows a retry; limit marks failed
+ok 7 - identical failures stop retrying; changed evidence allows a retry; limit marks failed
+  ---
+  duration_ms: 200.387802
+  type: 'test'
+  ...
+# Subtest: permission denial blocks the task instead of being worked around
+ok 8 - permission denial blocks the task instead of being worked around
+  ---
+  duration_ms: 80.262624
+  type: 'test'
+  ...
+# Subtest: implementation tasks are blocked while the Claude worker is disabled; decision-gated tasks wait
+ok 9 - implementation tasks are blocked while the Claude worker is disabled; decision-gated tasks wait
+  ---
+  duration_ms: 190.740773
+  type: 'test'
+  ...
+# Subtest: enabled worker is invoked with bounded flags; denials block; usage exhaustion stops cleanly
+ok 10 - enabled worker is invoked with bounded flags; denials block; usage exhaustion stops cleanly
+  ---
+  duration_ms: 74.912451
+  type: 'test'
+  ...
+# Subtest: refuses to start inside a supervisor child (no recursive sessions)
+ok 11 - refuses to start inside a supervisor child (no recursive sessions)
+  ---
+  duration_ms: 46.621244
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3890.79559
+
+# exit code 0

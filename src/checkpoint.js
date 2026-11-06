@@ -90,7 +90,12 @@ export function renderMarkdown(d) {
   const r = d.recommended_decision;
   L.push('', '## The one decision', '', `**${r.title}**`, '', r.why, '', `**Recommendation:** ${r.recommendation}`, '');
   if (r.alternatives.length) L.push('**Alternatives:**', ...r.alternatives.map((a) => `- ${a}`), '');
-  if (r.resume_instructions.length) L.push('**To resume dependent work:**', '', '```bash', ...r.resume_instructions, '```', '');
+  if (r.resume_instructions.length) {
+    const shell = r.resume_instructions.filter((x) => !x.startsWith('Dashboard:'));
+    L.push('**To resume dependent work:**', '', ...r.resume_instructions.filter((x) => x.startsWith('Dashboard:')).map((x) => `- ${x}`));
+    if (shell.length) L.push('', '```bash', ...shell.map((x) => x.replace(/^CLI [a-z ]+: /, '')), '```');
+    L.push('');
+  }
   L.push(`## Other pending decisions (${Math.max(0, d.pending_decisions.length - 1)})`, '');
   for (const p of d.pending_decisions.slice(1)) L.push(`- ${p.business} — ${p.title} (${p.request || 'n/a'})`);
   L.push('', '## Can proceed without an answer', '', ...d.can_proceed_without_answer.map((c) => `- ${c}`), '');

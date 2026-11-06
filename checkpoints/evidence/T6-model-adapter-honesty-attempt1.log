@@ -1,0 +1,45 @@
+# T6-model-adapter-honesty: Replaceable model adapter; missing credentials shown honestly
+# attempt 1 at 2026-11-06T18:37:44.648Z
+# acceptance:
+#  - Without key + budget the real adapter is reported disabled with reasons
+#  - Requesting real mode without credentials falls back to mock and says why
+#  - Calling the disabled real adapter blocks the run instead of retrying
+
+# --- acceptance check ---
+$ node --no-warnings --test test/adapter.test.js
+TAP version 13
+# Subtest: real adapter reports every missing prerequisite (never prints secrets)
+ok 1 - real adapter reports every missing prerequisite (never prints secrets)
+  ---
+  duration_ms: 1.440624
+  type: 'test'
+  ...
+# Subtest: requesting real mode without credentials falls back to mock and explains why
+ok 2 - requesting real mode without credentials falls back to mock and explains why
+  ---
+  duration_ms: 0.265699
+  type: 'test'
+  ...
+# Subtest: a disabled real adapter blocks the run (no retries, honest reason, pending decision)
+ok 3 - a disabled real adapter blocks the run (no retries, honest reason, pending decision)
+  ---
+  duration_ms: 22.595065
+  type: 'test'
+  ...
+# Subtest: server status exposes adapter labels and the missing-credential reasons
+ok 4 - server status exposes adapter labels and the missing-credential reasons
+  ---
+  duration_ms: 23.113365
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 131.260215
+
+# exit code 0

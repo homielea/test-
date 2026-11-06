@@ -80,7 +80,7 @@
       "why": "No ANTHROPIC_API_KEY or LAB_MAX_BUDGET_USD is configured in this environment, so every business output tonight is simulated by the mock adapter. A live smoke test and real drafts need your explicit authorisation and budget.",
       "recommendation": "Review the three mock NATEA drafts first. If the workflow shape is right, authorise a small cap (e.g. $2) and run the one-call smoke test.",
       "alternatives": ["Keep mock-only until the dashboard and handoff format are final.", "Authorise a larger budget and switch all businesses to real drafts (still reviewed; nothing is sent)."],
-      "resume": "export LAB_ADAPTER=anthropic LAB_MAX_BUDGET_USD=2   # ANTHROPIC_API_KEY must already be set in your shell\necho '{\"authorize-real-model\": \"approved: $2 cap\"}' > data/decisions-answered.json\nnpm run supervisor -- resume --detach"
+      "resume": "export LAB_ADAPTER=anthropic LAB_MAX_BUDGET_USD=2   # ANTHROPIC_API_KEY must already be set in your shell\necho '{\"authorize-real-model\": \"approved: $2 cap\"}' > data/decisions-answered.json\nnpm run supervisor -- resume --detach   # if the 8h window has ended first: npm run supervisor -- reset-window --hours 8"
     }
   ]
 }

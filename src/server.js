@@ -13,7 +13,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC = path.join(here, '..', 'public');
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml' };
 
-export function createApp({ dbFile = process.env.LAB_DB || 'data/lab.db', env = process.env, stepDelayMs = Number(env.LAB_STEP_DELAY_MS ?? 350), checkpointDir = 'checkpoints', port = 4317 } = {}) {
+export function createApp({ dbFile = process.env.LAB_DB || 'data/lab.db', env = process.env, stepDelayMs = Number(env.LAB_STEP_DELAY_MS ?? 350), checkpointDir = 'checkpoints', port = 4317, checkpointHours = Number(env.LAB_CHECKPOINT_HOURS || 4) } = {}) {
   const store = openDb(dbFile);
   seedBusinesses(store);
   const { adapter, real, fallbackReason } = selectAdapter({ store, env });
@@ -88,12 +88,21 @@ export function createApp({ dbFile = process.env.LAB_DB || 'data/lab.db', env = 
 
   return {
     store, engine, adapter, server, status,
+    /** Write an app checkpoint if ≥ checkpointHours of wall-clock time passed since the last saved one (survives restarts). */
+    checkpointIfDue(now = Date.now()) {
+      const last = store.latestCheckpoint('app');
+      if (last && now - Date.parse(last.created_at) < checkpointHours * 3600 * 1000) return null;
+      return saveAppCheckpoint(store, { adapterStatus: status().adapter, realStatus: real, port }, checkpointDir);
+    },
     async listen(p = port, host = '127.0.0.1') {
       await new Promise((r) => server.listen(p, host, r));
       engine.start();
+      this.cpTimer = setInterval(() => { try { this.checkpointIfDue(); } catch (e) { console.error('[checkpoint]', e); } }, 60000);
+      this.cpTimer.unref();
       return server.address().port;
     },
     async close() {
+      clearInterval(this.cpTimer);
       await engine.stop();
       await new Promise((r) => server.close(r));
       store.close();

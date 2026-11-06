@@ -36,3 +36,14 @@ test('with an empty queue the checkpoint names the real-model authorisation as t
   assert.match(data.recommended_decision.title, /real-model/);
   assert.match(data.recommended_decision.why, /ANTHROPIC_API_KEY not set/);
 });
+
+test('server writes an app checkpoint only when 4 wall-clock hours have elapsed since the last one', async () => {
+  const { createApp } = await import('../src/server.js');
+  const dir = tmpDir();
+  const app = createApp({ dbFile: path.join(dir, 'lab.db'), checkpointDir: path.join(dir, 'cp'), env: {} });
+  const first = app.checkpointIfDue();
+  assert.ok(first, 'no previous checkpoint → write one');
+  assert.equal(app.checkpointIfDue(Date.now() + 3.9 * 3600e3), null, 'not yet due');
+  assert.ok(app.checkpointIfDue(Date.now() + 4.01 * 3600e3), 'due after 4h');
+  await app.close().catch(() => {});
+});
