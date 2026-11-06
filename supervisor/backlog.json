@@ -1,0 +1,86 @@
+{
+  "description": "Authorised overnight backlog for the Business Agent Lab MVP. Only these tasks may run. The supervisor stops when they are complete; it never adds work. Each task's check command is its acceptance test; the log is saved as evidence.",
+  "tasks": [
+    {
+      "id": "T1-e2e-mock-scenario",
+      "title": "One end-to-end NATEA scenario with the deterministic mock adapter",
+      "acceptance": ["Inquiry reaches a reviewable draft (needs_review) with classification, facts, missing info and quality review", "Approval saves the result and creates exactly one Maya handoff"],
+      "check": "node --no-warnings --test --test-name-pattern='scenario 1|approval saves' test/workflow.test.js"
+    },
+    {
+      "id": "T2-persistence-review",
+      "title": "Persistence and review decisions (approve / request changes / hold)",
+      "depends_on": ["T1-e2e-mock-scenario"],
+      "acceptance": ["Revision creates a new attempt and preserves earlier drafts", "Approval saves the approved version", "Hold keeps the decision pending", "Pending approval survives restart"],
+      "check": "node --no-warnings --test --test-name-pattern='request changes|hold|pending approval survives' test/workflow.test.js test/recovery.test.js"
+    },
+    {
+      "id": "T3-business-separation",
+      "title": "Business separation enforced in data access",
+      "depends_on": ["T1-e2e-mock-scenario"],
+      "acceptance": ["A business scope cannot read or write another business's requests, runs, drafts, results, events or decisions", "HTTP API refuses cross-business run ids"],
+      "check": "node --no-warnings --test test/separation.test.js test/api.test.js"
+    },
+    {
+      "id": "T4-recovery-retries",
+      "title": "Restart recovery and bounded retries",
+      "depends_on": ["T2-persistence-review"],
+      "acceptance": ["SIGKILLed worker's run resumes without duplicate step completion", "Quality repair limit (2) reached → blocked with pending decision", "Step retry limit reached → failed", "Concurrent workers never double-process"],
+      "check": "node --no-warnings --test test/recovery.test.js && node --no-warnings --test --test-name-pattern='repair|retry|transient' test/workflow.test.js"
+    },
+    {
+      "id": "T5-checkpoint-supervisor",
+      "title": "Four-hour checkpoint and coding supervisor controls",
+      "depends_on": ["T4-recovery-retries"],
+      "acceptance": ["App checkpoint has one recommended decision, alternatives and exact resume instructions", "Supervisor start/stop/status/resume tested", "Deadline and stop terminate child processes", "Identical failures stop retrying; permission denial blocks"],
+      "check": "node --no-warnings --test test/checkpoint.test.js test/supervisor.test.js"
+    },
+    {
+      "id": "T6-model-adapter-honesty",
+      "title": "Replaceable model adapter; missing credentials shown honestly",
+      "depends_on": ["T1-e2e-mock-scenario"],
+      "acceptance": ["Without key + budget the real adapter is reported disabled with reasons", "Requesting real mode without credentials falls back to mock and says why", "Calling the disabled real adapter blocks the run instead of retrying"],
+      "check": "node --no-warnings --test test/adapter.test.js"
+    },
+    {
+      "id": "T6b-real-model-live-smoke",
+      "title": "Live real-model smoke test (one bounded call)",
+      "requires_decision": "authorize-real-model",
+      "depends_on": ["T6-model-adapter-honesty"],
+      "acceptance": ["One real model call drafts scenario 1 within the configured budget and passes deterministic quality review"],
+      "check": "node --no-warnings scripts/model-smoke.mjs"
+    },
+    {
+      "id": "T7-natea-scenarios",
+      "title": "Validate NATEA scenarios 2 and 3 (international buyer, automation)",
+      "depends_on": ["T1-e2e-mock-scenario"],
+      "acceptance": ["Each scenario produces classification, known facts with quotes, missing info, brief, next actions, draft, quality review and a handoff after approval", "No invented prices, availability or legal conclusions"],
+      "check": "node --no-warnings --test test/scenarios.test.js"
+    },
+    {
+      "id": "T8-dashboard-journey",
+      "title": "Dashboard and handoff exercised in a real browser",
+      "depends_on": ["T2-persistence-review", "T3-business-separation"],
+      "acceptance": ["Main journey passes in Chromium: intake → review → request changes → approve → copy handoff → business switch → checkpoint", "Phone width has no horizontal scroll", "No console errors"],
+      "check": "npm run e2e --silent"
+    },
+    {
+      "id": "T9-full-suite",
+      "title": "Full test suite green",
+      "depends_on": ["T1-e2e-mock-scenario", "T2-persistence-review", "T3-business-separation", "T4-recovery-retries", "T5-checkpoint-supervisor", "T6-model-adapter-honesty", "T7-natea-scenarios", "T8-dashboard-journey"],
+      "acceptance": ["npm test exits 0"],
+      "check": "npm test --silent"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "authorize-real-model",
+      "task_id": "T6b-real-model-live-smoke",
+      "title": "Authorise a small budget for real-model drafts?",
+      "why": "No ANTHROPIC_API_KEY or LAB_MAX_BUDGET_USD is configured in this environment, so every business output tonight is simulated by the mock adapter. A live smoke test and real drafts need your explicit authorisation and budget.",
+      "recommendation": "Review the three mock NATEA drafts first. If the workflow shape is right, authorise a small cap (e.g. $2) and run the one-call smoke test.",
+      "alternatives": ["Keep mock-only until the dashboard and handoff format are final.", "Authorise a larger budget and switch all businesses to real drafts (still reviewed; nothing is sent)."],
+      "resume": "export LAB_ADAPTER=anthropic LAB_MAX_BUDGET_USD=2   # ANTHROPIC_API_KEY must already be set in your shell\necho '{\"authorize-real-model\": \"approved: $2 cap\"}' > data/decisions-answered.json\nnpm run supervisor -- resume --detach"
+    }
+  ]
+}

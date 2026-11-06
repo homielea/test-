@@ -1,0 +1,50 @@
+{
+  "$comment": "Narrow permissions for the optional unattended Claude worker. Passed with --settings and --permission-mode dontAsk: anything not allowed here is denied, never prompted. No global bypass.",
+  "permissions": {
+    "defaultMode": "dontAsk",
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit(/src/**)",
+      "Edit(/public/**)",
+      "Edit(/test/**)",
+      "Edit(/docs/**)",
+      "Write(/src/**)",
+      "Write(/public/**)",
+      "Write(/test/**)",
+      "Write(/docs/**)",
+      "Bash(npm test)",
+      "Bash(npm test *)",
+      "Bash(npm run e2e)",
+      "Bash(node --no-warnings --test *)",
+      "Bash(git status)",
+      "Bash(git status *)",
+      "Bash(git diff)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ],
+    "deny": [
+      "Bash(git push *)",
+      "Bash(git push)",
+      "Bash(git merge *)",
+      "Bash(git reset --hard *)",
+      "Bash(npm publish *)",
+      "Bash(npm install *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(claude *)",
+      "Bash(npm run supervisor *)",
+      "Bash(node supervisor/*)",
+      "Bash(rm -rf *)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Edit(/supervisor/**)",
+      "Write(/supervisor/**)",
+      "WebFetch",
+      "WebSearch"
+    ]
+  }
+}
