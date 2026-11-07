@@ -1,4 +1,4 @@
-# Business runtime checkpoint — 2026-11-06T18:38:10.671Z
+# Business runtime checkpoint — 2026-11-07T07:11:43.461Z
 
 > No notification channel is configured. This checkpoint was saved locally only; nobody was notified.
 
@@ -9,13 +9,13 @@
 
 | Business | queued | running | needs review | blocked | completed | failed |
 |---|---|---|---|---|---|---|
-| NATEA | 0 | 0 | 3 | 0 | 0 | 0 |
+| NATEA | 0 | 0 | 0 | 0 | 3 | 0 |
 | REWIRE | 0 | 0 | 0 | 0 | 0 | 0 |
 | Polypreneur | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## What works
 
-- Inquiry → validate → context → classify → draft → quality review → decision → save → handoff (0 run(s) completed).
+- Inquiry → validate → context → classify → draft → quality review → decision → save → handoff (3 run(s) completed).
 - Approve / request changes / hold with full draft history.
 - Business-scoped data access; restart recovery; bounded repairs and retries.
 
@@ -25,30 +25,24 @@
 
 ## The one decision
 
-**NATEA: Review draft v1 — "Accommodation for 8 workers near Ferrol (3 months)"**
+**Set up the Anthropic API key (budget of $3 already approved by Lea (in chat) on 2026-11-07)**
 
-Draft v1 passed quality review and awaits approve / request changes / hold.
+Real model is still disabled: ANTHROPIC_API_KEY not set; LAB_MAX_BUDGET_USD not configured (real-model path stays disabled without a budget); LAB_ADAPTER=anthropic not set. Mock mode continues until the key exists.
 
-**Recommendation:** Read the draft and approve if accurate (approval saves it for Maya; nothing is sent).
+**Recommendation:** Create the key in your Anthropic account, then ask Claude to open the secure credential form; the key is never pasted into chat or printed.
 
 **Alternatives:**
-- Request changes with notes (new attempt, history kept).
-- Hold until more information arrives.
+- Stay on mock indefinitely.
+- Change the approved budget before enabling.
 
 **To resume dependent work:**
 
-- Dashboard: http://127.0.0.1:4317/#/natea/runs/6aa02313-c2b5-4f41-8008-64cadf25d497 → choose Approve, Request changes or Hold.
-
 ```bash
-npm run lab -- review natea 6aa02313-c2b5-4f41-8008-64cadf25d497 approve
-npm run lab -- review natea 6aa02313-c2b5-4f41-8008-64cadf25d497 request_changes "<your notes>"
-npm run lab -- review natea 6aa02313-c2b5-4f41-8008-64cadf25d497 hold "<reason>"
+LAB_ADAPTER=anthropic LAB_MAX_BUDGET_USD=3 npm start   (with the key available to the process)
 ```
 
-## Other pending decisions (2)
+## Other pending decisions (0)
 
-- NATEA — Review draft v1 (International buyer looking for a home near Ferrol)
-- NATEA — Review draft v1 (Local company: automate an administrative process)
 
 ## Can proceed without an answer
 

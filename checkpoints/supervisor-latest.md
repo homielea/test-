@@ -1,9 +1,9 @@
-# Coding supervisor checkpoint — 2026-11-06T18:38:02.453Z
+# Coding supervisor checkpoint — 2026-11-07T07:11:43.612Z
 
 > No notification channel is configured. This checkpoint is saved locally only; nobody was notified.
 
-**Reason:** loop ended: nothing_eligible (remaining tasks are blocked/failed or need a decision)  
-**Window:** started 2026-11-06T18:37:38.073Z, deadline 2026-11-07T02:37:38.073Z (480 min left), elapsed 0 min  
+**Reason:** manual  
+**Window:** started 2026-11-06T18:37:38.073Z, deadline 2026-11-07T02:37:38.073Z (0 min left), elapsed 754 min  
 **Worker:** Claude worker disabled (SUPERVISOR_WORKER=claude not set; SUPERVISOR_MAX_BUDGET_USD not configured) — verify-only mode
 
 ## What works (acceptance checks passed, with evidence)
@@ -39,21 +39,21 @@
 
 ## The one decision
 
-**Authorise a small budget for real-model drafts?**
+**Real-model drafts: $3 cap approved by Lea (2026-11-07) — waiting for the API key**
 
-No ANTHROPIC_API_KEY or LAB_MAX_BUDGET_USD is configured in this environment, so every business output tonight is simulated by the mock adapter. A live smoke test and real drafts need your explicit authorisation and budget.
+Lea approved a $3 spending cap on 2026-11-07 and asked to stay on mock until her Anthropic API key is set up. No ANTHROPIC_API_KEY is configured yet, so the live smoke test cannot run.
 
-**Recommendation:** Review the three mock NATEA drafts first. If the workflow shape is right, authorise a small cap (e.g. $2) and run the one-call smoke test.
+**Recommendation:** When the key exists, save it through the secure credential form (Claude can open it), then run the one-call smoke test with LAB_MAX_BUDGET_USD=3.
 
 **Alternatives:**
-- Keep mock-only until the dashboard and handoff format are final.
-- Authorise a larger budget and switch all businesses to real drafts (still reviewed; nothing is sent).
+- Stay on mock indefinitely.
+- Run real drafts for all businesses under the same $3 cap (still reviewed; nothing is sent).
 
 **Exact instruction to resume dependent work:**
 
 ```bash
-export LAB_ADAPTER=anthropic LAB_MAX_BUDGET_USD=2   # ANTHROPIC_API_KEY must already be set in your shell
-echo '{"authorize-real-model": "approved: $2 cap"}' > data/decisions-answered.json
+export LAB_ADAPTER=anthropic LAB_MAX_BUDGET_USD=3   # ANTHROPIC_API_KEY must already be set in your shell
+echo '{"authorize-real-model": "approved: $3 cap (Lea, 2026-11-07)"}' > data/decisions-answered.json
 npm run supervisor -- resume --detach   # if the 8h window has ended first: npm run supervisor -- reset-window --hours 8
 ```
 

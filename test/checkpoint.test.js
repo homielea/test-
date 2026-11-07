@@ -32,9 +32,18 @@ test('checkpoint recommends exactly one decision, with alternatives and exact re
 
 test('with an empty queue the checkpoint names the real-model authorisation as the decision', () => {
   const ctx = setup();
-  const { data } = buildAppCheckpoint(ctx.store, { adapterStatus: {}, realStatus: anthropicStatus({}) });
+  const { data } = buildAppCheckpoint(ctx.store, { adapterStatus: {}, realStatus: anthropicStatus({}), approval: null });
   assert.match(data.recommended_decision.title, /real-model/);
   assert.match(data.recommended_decision.why, /ANTHROPIC_API_KEY not set/);
+});
+
+test('a recorded budget approval turns the decision into "set up the key", without enabling the model', () => {
+  const ctx = setup();
+  const approval = { approved_budget_usd: 3, approved_by: 'Lea (in chat)', approved_at: '2026-11-07', status: 'waiting_for_api_key' };
+  const { data } = buildAppCheckpoint(ctx.store, { adapterStatus: {}, realStatus: anthropicStatus({}), approval });
+  assert.match(data.recommended_decision.title, /Set up the Anthropic API key \(budget of \$3 already approved/);
+  assert.ok(data.recommended_decision.resume_instructions[0].includes('LAB_MAX_BUDGET_USD=3'));
+  assert.equal(data.real_model.available, false, 'approval alone does not enable the real model');
 });
 
 test('server writes an app checkpoint only when 4 wall-clock hours have elapsed since the last one', async () => {

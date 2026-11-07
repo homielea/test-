@@ -28,12 +28,17 @@
 - **Example handoffs** in `docs/examples/` were approved by a labelled *demo harness*, not by Lea.
 - The **Claude worker** path of the supervisor was only exercised with a fake `claude` binary in tests. It has not been run against the real CLI.
 
+## Lea's decisions recorded (2026-11-07, in chat)
+
+- **Approved all three NATEA drafts.** They are now completed. The handoffs are saved in `docs/handoffs/` with "Approved by: Lea (approved in chat 2026-11-07; recorded by Claude)". Nothing was sent to the clients.
+- **Real-model budget: $3 approved**, recorded in `config/real-model.json`. The app **stays on mock** until the API key is set up, as Lea asked.
+
 ## Blocked (needs Lea)
 
 | Item | Why | To unblock |
 |---|---|---|
-| Real-model drafts (`LAB_ADAPTER=anthropic`) | No `ANTHROPIC_API_KEY` and no budget configured. The path stays disabled without both. | See `docs/CHECKPOINT-REPORT.md` → decision 2 |
-| T6b live model smoke test | Gated on decision `authorize-real-model` | Same |
+| Real-model drafts (`LAB_ADAPTER=anthropic`) | $3 budget approved; **no API key yet**. Claude cannot create an Anthropic API key: that needs Lea's Anthropic account. | Create the key, then ask Claude to open the secure credential form |
+| T6b live model smoke test | Gated on decision `authorize-real-model` (waiting for the key) | Same |
 | Unattended Claude coding worker | `SUPERVISOR_WORKER` and `SUPERVISOR_MAX_BUDGET_USD` not set (by design: no budget was given) | `SUPERVISOR_WORKER=claude SUPERVISOR_MAX_BUDGET_USD=<amount> npm run supervisor -- resume --detach` |
 
 ## Pending external actions (recorded, not done)

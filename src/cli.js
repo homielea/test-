@@ -1,6 +1,6 @@
 // CLI for the business runtime (works with or without the server running; state is in SQLite).
 //   npm run lab -- status
-//   npm run lab -- review <business> <runId> approve|request_changes|hold ["notes"]
+//   npm run lab -- review <business> <runId> approve|request_changes|hold ["notes"] [--by "name"]
 //   npm run lab -- checkpoint
 //   npm run lab -- handoff <business> <runId>
 import { openDb } from './db.js';
@@ -21,8 +21,10 @@ try {
       for (const d of s.listDecisions()) console.log(`  pending: ${d.title} — run ${d.run_id}`);
     }
   } else if (cmd === 'review') {
+    const byIdx = args.indexOf('--by');
+    const decidedBy = byIdx >= 0 ? args.splice(byIdx, 2)[1] : 'Lea (CLI)';
     const [biz, runId, action, notes] = args;
-    const r = reviewRun(store, biz, runId, { action, notes, decidedBy: 'Lea (CLI)' });
+    const r = reviewRun(store, biz, runId, { action, notes, decidedBy });
     console.log(`Recorded ${action}. Run is now ${r.status} at ${r.current_step}. The server's worker (or next start) continues it.`);
   } else if (cmd === 'checkpoint') {
     const { adapter, real } = selectAdapter({ store });

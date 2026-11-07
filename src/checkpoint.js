@@ -6,7 +6,11 @@ import path from 'node:path';
 
 const PRIORITY = { quality_exhausted: 0, review: 1, blocked: 2 };
 
-export function buildAppCheckpoint(store, { adapterStatus, realStatus, port = 4317 } = {}) {
+function readApproval(file = 'config/real-model.json') {
+  try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return null; }
+}
+
+export function buildAppCheckpoint(store, { adapterStatus, realStatus, port = 4317, approval = readApproval() } = {}) {
   const businesses = store.listBusinesses();
   const perBusiness = [];
   const pending = [];
@@ -39,6 +43,14 @@ export function buildAppCheckpoint(store, { adapterStatus, realStatus, port = 43
         `CLI hold: npm run lab -- review ${top.business_id} ${top.run_id} hold "<reason>"`,
       ] : ['Inspect the run in the dashboard; requeueing requires fixing the blocking cause first.'],
       decision_id: top.id,
+    };
+  } else if (!realStatus?.available && approval?.status === 'waiting_for_api_key') {
+    decision = {
+      title: `Set up the Anthropic API key (budget of $${approval.approved_budget_usd} already approved by ${approval.approved_by} on ${approval.approved_at})`,
+      why: `Real model is still disabled: ${realStatus?.missing?.join('; ')}. Mock mode continues until the key exists.`,
+      recommendation: 'Create the key in your Anthropic account, then ask Claude to open the secure credential form; the key is never pasted into chat or printed.',
+      alternatives: ['Stay on mock indefinitely.', 'Change the approved budget before enabling.'],
+      resume_instructions: [`LAB_ADAPTER=anthropic LAB_MAX_BUDGET_USD=${approval.approved_budget_usd} npm start   (with the key available to the process)`],
     };
   } else if (!realStatus?.available) {
     decision = {
@@ -92,8 +104,9 @@ export function renderMarkdown(d) {
   if (r.alternatives.length) L.push('**Alternatives:**', ...r.alternatives.map((a) => `- ${a}`), '');
   if (r.resume_instructions.length) {
     const shell = r.resume_instructions.filter((x) => !x.startsWith('Dashboard:'));
-    L.push('**To resume dependent work:**', '', ...r.resume_instructions.filter((x) => x.startsWith('Dashboard:')).map((x) => `- ${x}`));
-    if (shell.length) L.push('', '```bash', ...shell.map((x) => x.replace(/^CLI [a-z ]+: /, '')), '```');
+    const links = r.resume_instructions.filter((x) => x.startsWith('Dashboard:')).map((x) => `- ${x}`);
+    L.push('**To resume dependent work:**', '', ...links);
+    if (shell.length) L.push(...(links.length ? [''] : []), '```bash', ...shell.map((x) => x.replace(/^CLI [a-z ]+: /, '')), '```');
     L.push('');
   }
   L.push(`## Other pending decisions (${Math.max(0, d.pending_decisions.length - 1)})`, '');
