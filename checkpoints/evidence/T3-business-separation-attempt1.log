@@ -1,0 +1,50 @@
+# T3-business-separation: Business separation enforced in data access
+# attempt 1 at 2026-11-06T18:37:38.506Z
+# acceptance:
+#  - A business scope cannot read or write another business's requests, runs, drafts, results, events or decisions
+#  - HTTP API refuses cross-business run ids
+
+# --- acceptance check ---
+$ node --no-warnings --test test/separation.test.js test/api.test.js
+TAP version 13
+# Subtest: HTTP API: intake → review → approve, with business-scoped URLs
+ok 1 - HTTP API: intake → review → approve, with business-scoped URLs
+  ---
+  duration_ms: 695.558025
+  type: 'test'
+  ...
+# Subtest: business scopes cannot read or modify each other's records
+ok 2 - business scopes cannot read or modify each other's records
+  ---
+  duration_ms: 46.617561
+  type: 'test'
+  ...
+# Subtest: each business uses its own context and categories
+ok 3 - each business uses its own context and categories
+  ---
+  duration_ms: 18.275284
+  type: 'test'
+  ...
+# Subtest: quality review rejects drafts that mention another business
+ok 4 - quality review rejects drafts that mention another business
+  ---
+  duration_ms: 0.410599
+  type: 'test'
+  ...
+# Subtest: quality review catches invented prices, availability, legal conclusions and ungrounded facts
+ok 5 - quality review catches invented prices, availability, legal conclusions and ungrounded facts
+  ---
+  duration_ms: 0.938828
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 793.906333
+
+# exit code 0

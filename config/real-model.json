@@ -1,0 +1,8 @@
+{
+  "$comment": "Lea's recorded decision on real-model drafts. Recording a budget does NOT enable the real model: that still requires LAB_ADAPTER=anthropic, LAB_MAX_BUDGET_USD and an API key at start time.",
+  "approved_budget_usd": 3,
+  "approved_by": "Lea (in chat)",
+  "approved_at": "2026-11-07",
+  "status": "waiting_for_api_key",
+  "mode_until_then": "mock"
+}

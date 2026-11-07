@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Business Agent Lab</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"></span>
+      <div>
+        <h1>Business Agent Lab</h1>
+        <div class="sub">Lea's portfolio · Maya, Chief of Staff</div>
+      </div>
+    </div>
+    <nav class="biz-select" id="bizSelect" aria-label="Business selector"></nav>
+    <div class="modes" id="modes"></div>
+  </header>
+
+  <nav class="viewtabs">
+    <a href="#/" data-view="queue" id="tabQueue">Queue &amp; runs</a>
+    <a href="#/checkpoint" data-view="checkpoint" id="tabCheckpoint">Checkpoint <span class="count" id="pendingCount"></span></a>
+  </nav>
+
+  <main id="viewQueue" class="layout">
+    <aside class="col left">
+      <section class="card context" id="contextCard"></section>
+      <section class="card">
+        <h2>New request</h2>
+        <div class="samples" id="samples"></div>
+        <form id="intake">
+          <label>Title<input name="title" required maxlength="200" placeholder="Short summary of the inquiry"></label>
+          <div class="row2">
+            <label>Contact name<input name="name" placeholder="Optional"></label>
+            <label>Email<input name="email" type="email" placeholder="Optional"></label>
+          </div>
+          <label>Inquiry text<textarea name="body" required rows="7" placeholder="Paste the client's message"></textarea></label>
+          <label class="check"><input type="checkbox" name="is_sample" checked> This is sample / fictional data</label>
+          <button type="submit" class="btn primary">Submit to <span class="bizname"></span></button>
+          <div class="formmsg" id="intakeMsg" role="status"></div>
+        </form>
+      </section>
+    </aside>
+
+    <section class="col mid">
+      <div class="card">
+        <h2>Queue</h2>
+        <div class="filters" id="filters" role="tablist"></div>
+        <ul class="runlist" id="runList"></ul>
+      </div>
+    </section>
+
+    <section class="col right" id="runDetail">
+      <div class="card empty">Select a run to see its graph, outputs, evidence and review controls.</div>
+    </section>
+  </main>
+
+  <main id="viewCheckpoint" class="checkpoint-view" hidden>
+    <div class="card">
+      <div class="cp-head">
+        <h2>Four-hour checkpoint</h2>
+        <button class="btn primary" id="genCheckpoint">Generate checkpoint now</button>
+      </div>
+      <p class="muted" id="cpNote"></p>
+      <div id="appCheckpoint" class="md"></div>
+    </div>
+    <div class="card">
+      <h2>Coding supervisor checkpoint</h2>
+      <div id="supCheckpoint" class="md"></div>
+    </div>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "business-agent-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Business Agent Lab MVP: business-scoped agent workflow runtime, review dashboard and bounded coding supervisor.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning src/server.js",
+    "lab": "node --no-warnings=ExperimentalWarning src/cli.js",
+    "test": "node --no-warnings=ExperimentalWarning --test --test-concurrency=1 test/*.test.js",
+    "supervisor": "node --no-warnings=ExperimentalWarning supervisor/supervisor.js",
+    "e2e": "node --no-warnings=ExperimentalWarning test/e2e/browser-journey.mjs",
+    "demo": "node --no-warnings=ExperimentalWarning scripts/demo.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.1.0"
+  }
+}

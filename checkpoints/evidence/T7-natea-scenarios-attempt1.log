@@ -1,0 +1,50 @@
+# T7-natea-scenarios: Validate NATEA scenarios 2 and 3 (international buyer, automation)
+# attempt 1 at 2026-11-06T18:37:44.823Z
+# acceptance:
+#  - Each scenario produces classification, known facts with quotes, missing info, brief, next actions, draft, quality review and a handoff after approval
+#  - No invented prices, availability or legal conclusions
+
+# --- acceptance check ---
+$ node --no-warnings --test test/scenarios.test.js
+TAP version 13
+# Subtest: NATEA scenario natea-workers-8: full output set and handoff after approval
+ok 1 - NATEA scenario natea-workers-8: full output set and handoff after approval
+  ---
+  duration_ms: 38.895693
+  type: 'test'
+  ...
+# Subtest: NATEA scenario natea-buyer-home: full output set and handoff after approval
+ok 2 - NATEA scenario natea-buyer-home: full output set and handoff after approval
+  ---
+  duration_ms: 28.601155
+  type: 'test'
+  ...
+# Subtest: NATEA scenario natea-automation-admin: full output set and handoff after approval
+ok 3 - NATEA scenario natea-automation-admin: full output set and handoff after approval
+  ---
+  duration_ms: 29.017291
+  type: 'test'
+  ...
+# Subtest: buyer scenario routes the legal question to a professional instead of answering it
+ok 4 - buyer scenario routes the legal question to a professional instead of answering it
+  ---
+  duration_ms: 20.285244
+  type: 'test'
+  ...
+# Subtest: automation scenario notes the Spanish greeting without assuming language
+ok 5 - automation scenario notes the Spanish greeting without assuming language
+  ---
+  duration_ms: 17.540223
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 215.72979
+
+# exit code 0

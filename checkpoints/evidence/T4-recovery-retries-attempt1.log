@@ -1,0 +1,86 @@
+# T4-recovery-retries: Restart recovery and bounded retries
+# attempt 1 at 2026-11-06T18:37:39.344Z
+# acceptance:
+#  - SIGKILLed worker's run resumes without duplicate step completion
+#  - Quality repair limit (2) reached → blocked with pending decision
+#  - Step retry limit reached → failed
+#  - Concurrent workers never double-process
+
+# --- acceptance check ---
+$ node --no-warnings --test test/recovery.test.js && node --no-warnings --test --test-name-pattern='repair|retry|transient' test/workflow.test.js
+TAP version 13
+# Subtest: pending approval survives a restart
+ok 1 - pending approval survives a restart
+  ---
+  duration_ms: 35.940288
+  type: 'test'
+  ...
+# Subtest: interrupted work (SIGKILL mid-run) resumes without duplicate step completion
+ok 2 - interrupted work (SIGKILL mid-run) resumes without duplicate step completion
+  ---
+  duration_ms: 562.263721
+  type: 'test'
+  ...
+# Subtest: two concurrent workers never process the same run twice
+ok 3 - two concurrent workers never process the same run twice
+  ---
+  duration_ms: 166.579845
+  type: 'test'
+  ...
+# Subtest: completion is idempotent: result and handoff cannot be saved twice
+ok 4 - completion is idempotent: result and handoff cannot be saved twice
+  ---
+  duration_ms: 20.411075
+  type: 'test'
+  ...
+# Subtest: stop() releases the lease cleanly so another worker can resume
+ok 5 - stop() releases the lease cleanly so another worker can resume
+  ---
+  duration_ms: 209.945473
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1090.52473
+TAP version 13
+# Subtest: quality failure is repaired (one injected defect)
+ok 1 - quality failure is repaired (one injected defect)
+  ---
+  duration_ms: 35.66665
+  type: 'test'
+  ...
+# Subtest: repeated quality failure stops at the repair limit and requests a decision
+ok 2 - repeated quality failure stops at the repair limit and requests a decision
+  ---
+  duration_ms: 23.59466
+  type: 'test'
+  ...
+# Subtest: repeated step errors reach the retry limit and the run fails
+ok 3 - repeated step errors reach the retry limit and the run fails
+  ---
+  duration_ms: 22.637662
+  type: 'test'
+  ...
+# Subtest: a transient step error is retried and the run continues
+ok 4 - a transient step error is retried and the run continues
+  ---
+  duration_ms: 20.123777
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 189.111072
+
+# exit code 0

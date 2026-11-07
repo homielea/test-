@@ -1,0 +1,69 @@
+# Coding supervisor checkpoint — 2026-11-07T07:11:43.612Z
+
+> No notification channel is configured. This checkpoint is saved locally only; nobody was notified.
+
+**Reason:** manual  
+**Window:** started 2026-11-06T18:37:38.073Z, deadline 2026-11-07T02:37:38.073Z (0 min left), elapsed 754 min  
+**Worker:** Claude worker disabled (SUPERVISOR_WORKER=claude not set; SUPERVISOR_MAX_BUDGET_USD not configured) — verify-only mode
+
+## What works (acceptance checks passed, with evidence)
+
+- ✅ **T1-e2e-mock-scenario** One end-to-end NATEA scenario with the deterministic mock adapter — evidence: `checkpoints/evidence/T1-e2e-mock-scenario-attempt1.log`
+- ✅ **T2-persistence-review** Persistence and review decisions (approve / request changes / hold) — evidence: `checkpoints/evidence/T2-persistence-review-attempt1.log`
+- ✅ **T3-business-separation** Business separation enforced in data access — evidence: `checkpoints/evidence/T3-business-separation-attempt1.log`
+- ✅ **T4-recovery-retries** Restart recovery and bounded retries — evidence: `checkpoints/evidence/T4-recovery-retries-attempt1.log`
+- ✅ **T5-checkpoint-supervisor** Four-hour checkpoint and coding supervisor controls — evidence: `checkpoints/evidence/T5-checkpoint-supervisor-attempt1.log`
+- ✅ **T6-model-adapter-honesty** Replaceable model adapter; missing credentials shown honestly — evidence: `checkpoints/evidence/T6-model-adapter-honesty-attempt1.log`
+- ✅ **T7-natea-scenarios** Validate NATEA scenarios 2 and 3 (international buyer, automation) — evidence: `checkpoints/evidence/T7-natea-scenarios-attempt1.log`
+- ✅ **T8-dashboard-journey** Dashboard and handoff exercised in a real browser — evidence: `checkpoints/evidence/T8-dashboard-journey-attempt1.log`
+- ✅ **T9-full-suite** Full test suite green — evidence: `checkpoints/evidence/T9-full-suite-attempt1.log`
+
+## Checks
+
+| Task | Status | Attempts | Last result |
+|---|---|---|---|
+| T1-e2e-mock-scenario | done | 1 | passed (exit 0) |
+| T2-persistence-review | done | 1 | passed (exit 0) |
+| T3-business-separation | done | 1 | passed (exit 0) |
+| T4-recovery-retries | done | 1 | passed (exit 0) |
+| T5-checkpoint-supervisor | done | 1 | passed (exit 0) |
+| T6-model-adapter-honesty | done | 1 | passed (exit 0) |
+| T6b-real-model-live-smoke | blocked | 0 | not run |
+| T7-natea-scenarios | done | 1 | passed (exit 0) |
+| T8-dashboard-journey | done | 1 | passed (exit 0) |
+| T9-full-suite | done | 1 | passed (exit 0) |
+
+## Blocked
+
+- **T6b-real-model-live-smoke** Live real-model smoke test (one bounded call): Waiting for decision authorize-real-model
+
+## The one decision
+
+**Real-model drafts: $3 cap approved by Lea (2026-11-07) — waiting for the API key**
+
+Lea approved a $3 spending cap on 2026-11-07 and asked to stay on mock until her Anthropic API key is set up. No ANTHROPIC_API_KEY is configured yet, so the live smoke test cannot run.
+
+**Recommendation:** When the key exists, save it through the secure credential form (Claude can open it), then run the one-call smoke test with LAB_MAX_BUDGET_USD=3.
+
+**Alternatives:**
+- Stay on mock indefinitely.
+- Run real drafts for all businesses under the same $3 cap (still reviewed; nothing is sent).
+
+**Exact instruction to resume dependent work:**
+
+```bash
+export LAB_ADAPTER=anthropic LAB_MAX_BUDGET_USD=3   # ANTHROPIC_API_KEY must already be set in your shell
+echo '{"authorize-real-model": "approved: $3 cap (Lea, 2026-11-07)"}' > data/decisions-answered.json
+npm run supervisor -- resume --detach   # if the 8h window has ended first: npm run supervisor -- reset-window --hours 8
+```
+
+## Can proceed without an answer
+
+- All independent authorised tasks are complete; the supervisor stops instead of inventing work.
+
+## Resume
+
+```bash
+npm run supervisor -- status
+npm run supervisor -- resume --detach
+```

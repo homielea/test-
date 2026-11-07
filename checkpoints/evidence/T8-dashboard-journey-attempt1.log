@@ -1,0 +1,20 @@
+# T8-dashboard-journey: Dashboard and handoff exercised in a real browser
+# attempt 1 at 2026-11-06T18:37:45.081Z
+# acceptance:
+#  - Main journey passes in Chromium: intake → review → request changes → approve → copy handoff → business switch → checkpoint
+#  - Phone width has no horizontal scroll
+#  - No console errors
+
+# --- acceptance check ---
+$ npm run e2e --silent
+PASS  dashboard loads with honest mode labels
+PASS  sample NATEA inquiry reaches a reviewable draft
+PASS  request changes creates attempt 2 with history kept
+PASS  approve saves v2 and creates the Maya handoff
+PASS  handoff Markdown copies to clipboard
+PASS  switching business hides NATEA records
+PASS  checkpoint view generates a local checkpoint with one decision
+PASS  narrow (phone) layout renders without horizontal scroll
+PASS  no browser console errors
+
+# exit code 0

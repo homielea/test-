@@ -1,0 +1,253 @@
+# T9-full-suite: Full test suite green
+# attempt 1 at 2026-11-06T18:37:55.570Z
+# acceptance:
+#  - npm test exits 0
+
+# --- acceptance check ---
+$ npm test --silent
+TAP version 13
+# Subtest: real adapter reports every missing prerequisite (never prints secrets)
+ok 1 - real adapter reports every missing prerequisite (never prints secrets)
+  ---
+  duration_ms: 1.826042
+  type: 'test'
+  ...
+# Subtest: requesting real mode without credentials falls back to mock and explains why
+ok 2 - requesting real mode without credentials falls back to mock and explains why
+  ---
+  duration_ms: 0.261529
+  type: 'test'
+  ...
+# Subtest: a disabled real adapter blocks the run (no retries, honest reason, pending decision)
+ok 3 - a disabled real adapter blocks the run (no retries, honest reason, pending decision)
+  ---
+  duration_ms: 18.266584
+  type: 'test'
+  ...
+# Subtest: server status exposes adapter labels and the missing-credential reasons
+ok 4 - server status exposes adapter labels and the missing-credential reasons
+  ---
+  duration_ms: 22.29247
+  type: 'test'
+  ...
+# Subtest: HTTP API: intake → review → approve, with business-scoped URLs
+ok 5 - HTTP API: intake → review → approve, with business-scoped URLs
+  ---
+  duration_ms: 672.704277
+  type: 'test'
+  ...
+# Subtest: checkpoint recommends exactly one decision, with alternatives and exact resume commands
+ok 6 - checkpoint recommends exactly one decision, with alternatives and exact resume commands
+  ---
+  duration_ms: 65.151229
+  type: 'test'
+  ...
+# Subtest: with an empty queue the checkpoint names the real-model authorisation as the decision
+ok 7 - with an empty queue the checkpoint names the real-model authorisation as the decision
+  ---
+  duration_ms: 8.356126
+  type: 'test'
+  ...
+# Subtest: server writes an app checkpoint only when 4 wall-clock hours have elapsed since the last one
+ok 8 - server writes an app checkpoint only when 4 wall-clock hours have elapsed since the last one
+  ---
+  duration_ms: 34.09052
+  type: 'test'
+  ...
+# Subtest: pending approval survives a restart
+ok 9 - pending approval survives a restart
+  ---
+  duration_ms: 42.625201
+  type: 'test'
+  ...
+# Subtest: interrupted work (SIGKILL mid-run) resumes without duplicate step completion
+ok 10 - interrupted work (SIGKILL mid-run) resumes without duplicate step completion
+  ---
+  duration_ms: 566.979985
+  type: 'test'
+  ...
+# Subtest: two concurrent workers never process the same run twice
+ok 11 - two concurrent workers never process the same run twice
+  ---
+  duration_ms: 163.425945
+  type: 'test'
+  ...
+# Subtest: completion is idempotent: result and handoff cannot be saved twice
+ok 12 - completion is idempotent: result and handoff cannot be saved twice
+  ---
+  duration_ms: 19.774108
+  type: 'test'
+  ...
+# Subtest: stop() releases the lease cleanly so another worker can resume
+ok 13 - stop() releases the lease cleanly so another worker can resume
+  ---
+  duration_ms: 207.976311
+  type: 'test'
+  ...
+# Subtest: NATEA scenario natea-workers-8: full output set and handoff after approval
+ok 14 - NATEA scenario natea-workers-8: full output set and handoff after approval
+  ---
+  duration_ms: 41.482694
+  type: 'test'
+  ...
+# Subtest: NATEA scenario natea-buyer-home: full output set and handoff after approval
+ok 15 - NATEA scenario natea-buyer-home: full output set and handoff after approval
+  ---
+  duration_ms: 25.806851
+  type: 'test'
+  ...
+# Subtest: NATEA scenario natea-automation-admin: full output set and handoff after approval
+ok 16 - NATEA scenario natea-automation-admin: full output set and handoff after approval
+  ---
+  duration_ms: 25.278692
+  type: 'test'
+  ...
+# Subtest: buyer scenario routes the legal question to a professional instead of answering it
+ok 17 - buyer scenario routes the legal question to a professional instead of answering it
+  ---
+  duration_ms: 21.103963
+  type: 'test'
+  ...
+# Subtest: automation scenario notes the Spanish greeting without assuming language
+ok 18 - automation scenario notes the Spanish greeting without assuming language
+  ---
+  duration_ms: 20.954752
+  type: 'test'
+  ...
+# Subtest: business scopes cannot read or modify each other's records
+ok 19 - business scopes cannot read or modify each other's records
+  ---
+  duration_ms: 47.315799
+  type: 'test'
+  ...
+# Subtest: each business uses its own context and categories
+ok 20 - each business uses its own context and categories
+  ---
+  duration_ms: 19.089757
+  type: 'test'
+  ...
+# Subtest: quality review rejects drafts that mention another business
+ok 21 - quality review rejects drafts that mention another business
+  ---
+  duration_ms: 0.259818
+  type: 'test'
+  ...
+# Subtest: quality review catches invented prices, availability, legal conclusions and ungrounded facts
+ok 22 - quality review catches invented prices, availability, legal conclusions and ungrounded facts
+  ---
+  duration_ms: 1.092641
+  type: 'test'
+  ...
+# Subtest: start --detach, status, duplicate refusal, stop (kills child), resume to completion
+ok 23 - start --detach, status, duplicate refusal, stop (kills child), resume to completion
+  ---
+  duration_ms: 572.698281
+  type: 'test'
+  ...
+# Subtest: SIGKILLed supervisor: resume kills the orphaned child and reconciles without redoing work
+ok 24 - SIGKILLed supervisor: resume kills the orphaned child and reconciles without redoing work
+  ---
+  duration_ms: 513.166551
+  type: 'test'
+  ...
+# Subtest: deadline stops the loop, terminates the child, and blocks a later resume
+ok 25 - deadline stops the loop, terminates the child, and blocks a later resume
+  ---
+  duration_ms: 2145.056232
+  type: 'test'
+  ...
+# Subtest: identical failures stop retrying; changed evidence allows a retry; limit marks failed
+ok 26 - identical failures stop retrying; changed evidence allows a retry; limit marks failed
+  ---
+  duration_ms: 193.885375
+  type: 'test'
+  ...
+# Subtest: permission denial blocks the task instead of being worked around
+ok 27 - permission denial blocks the task instead of being worked around
+  ---
+  duration_ms: 93.662324
+  type: 'test'
+  ...
+# Subtest: implementation tasks are blocked while the Claude worker is disabled; decision-gated tasks wait
+ok 28 - implementation tasks are blocked while the Claude worker is disabled; decision-gated tasks wait
+  ---
+  duration_ms: 208.123179
+  type: 'test'
+  ...
+# Subtest: enabled worker is invoked with bounded flags; denials block; usage exhaustion stops cleanly
+ok 29 - enabled worker is invoked with bounded flags; denials block; usage exhaustion stops cleanly
+  ---
+  duration_ms: 82.346717
+  type: 'test'
+  ...
+# Subtest: refuses to start inside a supervisor child (no recursive sessions)
+ok 30 - refuses to start inside a supervisor child (no recursive sessions)
+  ---
+  duration_ms: 58.458758
+  type: 'test'
+  ...
+# Subtest: scenario 1: worker accommodation inquiry reaches a reviewable draft
+ok 31 - scenario 1: worker accommodation inquiry reaches a reviewable draft
+  ---
+  duration_ms: 31.124465
+  type: 'test'
+  ...
+# Subtest: approval saves the approved version and creates exactly one handoff
+ok 32 - approval saves the approved version and creates exactly one handoff
+  ---
+  duration_ms: 27.640131
+  type: 'test'
+  ...
+# Subtest: request changes creates a new attempt, preserves history, and approval saves v2
+ok 33 - request changes creates a new attempt, preserves history, and approval saves v2
+  ---
+  duration_ms: 33.330458
+  type: 'test'
+  ...
+# Subtest: hold blocks the run; it can be approved later
+ok 34 - hold blocks the run; it can be approved later
+  ---
+  duration_ms: 25.258441
+  type: 'test'
+  ...
+# Subtest: quality failure is repaired (one injected defect)
+ok 35 - quality failure is repaired (one injected defect)
+  ---
+  duration_ms: 18.327064
+  type: 'test'
+  ...
+# Subtest: repeated quality failure stops at the repair limit and requests a decision
+ok 36 - repeated quality failure stops at the repair limit and requests a decision
+  ---
+  duration_ms: 21.930575
+  type: 'test'
+  ...
+# Subtest: repeated step errors reach the retry limit and the run fails
+ok 37 - repeated step errors reach the retry limit and the run fails
+  ---
+  duration_ms: 33.536566
+  type: 'test'
+  ...
+# Subtest: a transient step error is retried and the run continues
+ok 38 - a transient step error is retried and the run continues
+  ---
+  duration_ms: 22.950224
+  type: 'test'
+  ...
+# Subtest: validation failure is recorded
+ok 39 - validation failure is recorded
+  ---
+  duration_ms: 15.417026
+  type: 'test'
+  ...
+1..39
+# tests 39
+# suites 0
+# pass 39
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6717.265603
+
+# exit code 0
